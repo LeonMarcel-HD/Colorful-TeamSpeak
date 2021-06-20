@@ -27,7 +27,7 @@ endif::[]
 
 ⠀
 
-image::pictures\title.png[Colorful TeamSpeak Theme, align=center]
+image::Pictures\Title.png[Colorful TeamSpeak Theme, align=center]
 
 ⠀
 
@@ -40,65 +40,65 @@ This theme…
 * disables the chat bubbles of messages 
 
 
-image:pictures\bubbles.png[No Bubbles in Chat]
+image:Pictures\Bubbles.png[No Bubbles in Chat]
 
 * redesigns the favorite contact view
 
 
-image:pictures\fav.png[Favorite Star in Contact List]
+image:Pictures\Fav.png[Favorite Star in Contact List]
 ⠀
 
 '''
 
-image:pictures\cyanspeak.png[CyanSpeak]
+image:Pictures\CyanSpeak.png[CyanSpeak]
 
-image:pictures\cyan.png[Cyan]
-⠀
-
-'''
-
-⠀
-image:pictures\greenspeak.png[GreenSpeak]
-
-image:pictures\green.png[Green]
+image:Pictures\Cyan.png[Cyan]
 ⠀
 
 '''
 
 ⠀
-image:pictures\orangespeak.png[OrangeSpeak]
+image:Pictures\GreenSpeak.png[GreenSpeak]
 
-image:pictures\orange.png[Orange] 
+image:Pictures\Green.png[Green]
 ⠀
 
 '''
 
 ⠀
-image:pictures\yellowspeak.png[YellowSpeak]
+image:Pictures\OrangeSpeak.png[OrangeSpeak]
 
-image:pictures\yellow.png[Yellow] 
+image:Pictures\Orange.png[Orange] 
+⠀
+
+'''
+
+⠀
+image:Pictures\YellowSpeak.png[YellowSpeak]
+
+image:Pictures\Yellow.png[Yellow] 
 ⠀
 
 '''
 ⠀
 
-image:pictures\pinkspeak.png[PinkSpeak]
+image:Pictures\PinkSpeak.png[PinkSpeak]
 
-image:pictures\pink.png[Pink] 
+image:Pictures\Pink.png[Pink] 
 ⠀
 
 '''
 ⠀
 
-image:pictures\redspeak.png[RedSpeak]
+image:Pictures\RedSpeak.png[RedSpeak]
 
-image:pictures\red.png[Red] 
+image:Pictures\Red.png[Red] 
 ⠀
 
 '''
 ⠀
 
-image::pictures\download.png[Download, align=center]
+image::Pictures\Download.png[Download, align=center]
 
 ⠀
 
