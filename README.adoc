@@ -20,7 +20,7 @@ toc::[]
 endif::[]
 
 ifdef::env-github[]
-:imagesdir: https://raw.githubusercontent.com/LeonMarcel-HD/Colorful-Teamspeak-Themes/main/Pictures/
+:imagesdir: https://raw.githubusercontent.com/LeonMarcel-HD/Colorful-Teamspeak-Themes/main/
 endif::[]
 
 '''
