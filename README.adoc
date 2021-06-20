@@ -19,6 +19,10 @@ ifdef::env-github,safe-mode-secure[]
 toc::[]
 endif::[]
 
+ifdef::env-github[]
+:imagesdir: https://raw.githubusercontent.com/LeonMarcel-HD/Colorful-Teamspeak-Themes/main/Pictures/
+endif::[]
+
 '''
 
 ⠀
@@ -49,17 +53,19 @@ image:pictures\fav.png[Favorite Star in Contact List]
 image:pictures\cyanspeak.png[CyanSpeak]
 
 image:pictures\cyan.png[Cyan]
-
 ⠀
+
 '''
 
+⠀
 image:pictures\greenspeak.png[GreenSpeak]
 
 image:pictures\green.png[Green]
-
 ⠀
+
 '''
 
+⠀
 image:pictures\orangespeak.png[OrangeSpeak]
 
 image:pictures\orange.png[Orange] 
@@ -67,12 +73,14 @@ image:pictures\orange.png[Orange]
 
 '''
 
+⠀
 image:pictures\yellowspeak.png[YellowSpeak]
 
 image:pictures\yellow.png[Yellow] 
 ⠀
 
 '''
+⠀
 
 image:pictures\pinkspeak.png[PinkSpeak]
 
@@ -80,6 +88,7 @@ image:pictures\pink.png[Pink]
 ⠀
 
 '''
+⠀
 
 image:pictures\redspeak.png[RedSpeak]
 
