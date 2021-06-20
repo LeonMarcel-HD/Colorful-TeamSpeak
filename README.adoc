@@ -1,0 +1,100 @@
+:icons: font
+
+ifdef::env-github[]
+:tip-caption: :bulb:
+:warning-caption: :warning:
+:caution-caption: :fire:
+:important-caption: :exclamation:
+:note-caption: :information_source:
+endif::[]
+
+:toc: left
+:idseparator: -
+ifdef::env-github,safe-mode-secure[]
+:toc:
+:toc-placement!:
+endif::[]
+
+ifdef::env-github,safe-mode-secure[]
+toc::[]
+endif::[]
+
+'''
+
+⠀
+
+image::pictures\title.png[Colorful TeamSpeak Theme, align=center]
+
+⠀
+
+'''
+
+This theme…
+
+* changes the default color of TeamSpeak to the selected color
+
+* disables the chat bubbles of messages 
+
+
+image:pictures\bubbles.png[No Bubbles in Chat]
+
+* redesigns the favorite contact view
+
+
+image:pictures\fav.png[Favorite Star in Contact List]
+⠀
+
+'''
+
+image:pictures\cyanspeak.png[CyanSpeak]
+
+image:pictures\cyan.png[Cyan]
+
+⠀
+'''
+
+image:pictures\greenspeak.png[GreenSpeak]
+
+image:pictures\green.png[Green]
+
+⠀
+'''
+
+image:pictures\orangespeak.png[OrangeSpeak]
+
+image:pictures\orange.png[Orange] 
+⠀
+
+'''
+
+image:pictures\yellowspeak.png[YellowSpeak]
+
+image:pictures\yellow.png[Yellow] 
+⠀
+
+'''
+
+image:pictures\pinkspeak.png[PinkSpeak]
+
+image:pictures\pink.png[Pink] 
+⠀
+
+'''
+
+image:pictures\redspeak.png[RedSpeak]
+
+image:pictures\red.png[Red] 
+⠀
+
+'''
+⠀
+
+image::pictures\download.png[Download, align=center]
+
+⠀
+
+'''
+
+⠀
+
+Special thanks to @Gamer92000 for helping me creating these themes.
