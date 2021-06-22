@@ -31,9 +31,14 @@ ifdef::env-github[]
 ++++
 endif::[]
 
+<<<<<<< HEAD
 ifndef::env-github[]
 image::Pictures\Title.png[Colorful TeamSpeak Theme, align=center]
 endif::[]
+=======
+image::pictures\title.png[Colorful TeamSpeak Theme, align=center]
+
+>>>>>>> parent of 705e4e9... Readme update
 ⠀
 
 '''
@@ -45,11 +50,12 @@ endif::[]
 * disables the chat bubbles of messages 
 
 
-image:Pictures\Bubbles.png[No Bubbles in Chat]
+image:pictures\bubbles.png[No Bubbles in Chat]
 
 * redesigns the favorite contact view
 
 
+<<<<<<< HEAD
 image:Pictures\Fav.png[Favorite Star in Contact List]
 
 '''
@@ -75,10 +81,38 @@ image:Pictures\Fav.png[Favorite Star in Contact List]
 '''
 
 = image:Pictures\Red.png[Red]
+=======
+image:pictures\fav.png[Favorite Star in Contact List]
+⠀
+
+'''
+
+image:pictures\cyanspeak.png[CyanSpeak]
+
+image:pictures\cyan.png[Cyan]
+⠀
 
 '''
 
 ⠀
+image:pictures\greenspeak.png[GreenSpeak]
+
+image:pictures\green.png[Green]
+⠀
+
+'''
+
+⠀
+image:pictures\orangespeak.png[OrangeSpeak]
+
+image:pictures\orange.png[Orange] 
+⠀
+>>>>>>> parent of 705e4e9... Readme update
+
+'''
+
+⠀
+<<<<<<< HEAD
 ifdef::env-github[]
 ++++
 <p align="center">
@@ -90,18 +124,38 @@ endif::[]
 ifndef::env-github[]
 image::Pictures\Download.png[Download and Installation, align=center]
 endif::[]
+=======
+image:pictures\yellowspeak.png[YellowSpeak]
+
+image:pictures\yellow.png[Yellow] 
+⠀
+>>>>>>> parent of 705e4e9... Readme update
 
 ⠀
 
+<<<<<<< HEAD
 = Automatic Installation
 
  * Download the https://github.com/LeonMarcel-HD/Colorful-Teamspeak-Themes/releases/latest/download/installer[Installer] and execute it.
+=======
+image:pictures\pinkspeak.png[PinkSpeak]
+
+image:pictures\pink.png[Pink] 
+⠀
+>>>>>>> parent of 705e4e9... Readme update
 
  * Go trough the "Installation" process.
 
+<<<<<<< HEAD
  * Restart or open TeamSpeak.
 
  * Go into the `Settings -> Apperance -> User Theme` and here you can select the theme typ you want to use.
+=======
+image:pictures\redspeak.png[RedSpeak]
+
+image:pictures\red.png[Red] 
+⠀
+>>>>>>> parent of 705e4e9... Readme update
 
 = Manual Installation
 
@@ -111,7 +165,11 @@ endif::[]
 
 > Linux: ~/.config/TeamSpeak/Default/extensions
 
+<<<<<<< HEAD
 > Mac: ~/Library/Preferences/TeamSpeak/Default/extensions
+=======
+image::pictures\download.png[Download, align=center]
+>>>>>>> parent of 705e4e9... Readme update
 
 NOTE: Default stands for you Profile and might be different in your TeamSpeak Installation!
 
