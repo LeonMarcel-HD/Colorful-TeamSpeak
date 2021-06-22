@@ -8,11 +8,6 @@ ifdef::env-github[]
 :note-caption: :information_source:
 endif::[]
 
-:toc: left
-:idseparator: -
-:toc:
-:toc-placement!:
-
 ifdef::env-github,safe-mode-secure[]
 toc::[]
 endif::[]
