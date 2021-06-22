@@ -54,31 +54,31 @@ image:Pictures\Fav.png[Favorite Star in Contact List]
 
 '''
 
-= image:Pictures\Default.png[Default, height=1024, width=768]
+image:Pictures\Default.png[Default]
 
 '''
 
-= image:Pictures\Cyan.png[Cyan, height=1024, width=768]
+image:Pictures\Cyan.png[Cyan]
 
 '''
 
-= image:Pictures\Green.png[Green, height=1024, width=768]
+image:Pictures\Green.png[Green]
 
 '''
 
-= image:Pictures\Orange.png[Orange, height=1024, width=768] 
+image:Pictures\Orange.png[Orange]
 
 '''
 
-= image:Pictures\Yellow.png[Yellow, height=1024, width=768] 
+image:Pictures\Yellow.png[Yellow]
 
 '''
 
-= image:Pictures\Pink.png[Pink, height=1024, width=768] 
+image:Pictures\Pink.png[Pink]
 
 '''
 
-= image:Pictures\Red.png[Red, height=1024, width=768]
+image:Pictures\Red.png[Red]
 
 '''
 
