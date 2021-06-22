@@ -38,13 +38,11 @@ endif::[]
 * changes the default color of TeamSpeak to the selected color
 
 * disables the chat bubbles of messages 
-
-
++
 image:Pictures\Bubbles.png[No Bubbles in Chat]
 
 * redesigns the favorite contact view
-
-
++
 image:Pictures\Fav.png[Favorite Star in Contact List]
 
 '''
