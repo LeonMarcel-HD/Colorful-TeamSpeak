@@ -31,14 +31,9 @@ ifdef::env-github[]
 ++++
 endif::[]
 
-<<<<<<< HEAD
 ifndef::env-github[]
 image::Pictures\Title.png[Colorful TeamSpeak Theme, align=center]
 endif::[]
-=======
-image::pictures\title.png[Colorful TeamSpeak Theme, align=center]
-
->>>>>>> parent of 705e4e9... Readme update
 ⠀
 
 '''
@@ -50,69 +45,44 @@ image::pictures\title.png[Colorful TeamSpeak Theme, align=center]
 * disables the chat bubbles of messages 
 
 
-image:pictures\bubbles.png[No Bubbles in Chat]
+image:Pictures\Bubbles.png[No Bubbles in Chat]
 
 * redesigns the favorite contact view
 
 
-<<<<<<< HEAD
 image:Pictures\Fav.png[Favorite Star in Contact List]
 
 '''
 
-= image:Pictures\Cyan.png[Cyan]
+= image:Pictures\Default.png[Default, height=1024, width=768]
 
 '''
 
-= image:Pictures\Green.png[Green]
+= image:Pictures\Cyan.png[Cyan, height=1024, width=768]
 
 '''
 
-= image:Pictures\Orange.png[Orange] 
+= image:Pictures\Green.png[Green, height=1024, width=768]
 
 '''
 
-= image:Pictures\Yellow.png[Yellow] 
+= image:Pictures\Orange.png[Orange, height=1024, width=768] 
 
 '''
 
-= image:Pictures\Pink.png[Pink] 
+= image:Pictures\Yellow.png[Yellow, height=1024, width=768] 
 
 '''
 
-= image:Pictures\Red.png[Red]
-=======
-image:pictures\fav.png[Favorite Star in Contact List]
-⠀
+= image:Pictures\Pink.png[Pink, height=1024, width=768] 
 
 '''
 
-image:pictures\cyanspeak.png[CyanSpeak]
-
-image:pictures\cyan.png[Cyan]
-⠀
+= image:Pictures\Red.png[Red, height=1024, width=768]
 
 '''
 
 ⠀
-image:pictures\greenspeak.png[GreenSpeak]
-
-image:pictures\green.png[Green]
-⠀
-
-'''
-
-⠀
-image:pictures\orangespeak.png[OrangeSpeak]
-
-image:pictures\orange.png[Orange] 
-⠀
->>>>>>> parent of 705e4e9... Readme update
-
-'''
-
-⠀
-<<<<<<< HEAD
 ifdef::env-github[]
 ++++
 <p align="center">
@@ -124,67 +94,59 @@ endif::[]
 ifndef::env-github[]
 image::Pictures\Download.png[Download and Installation, align=center]
 endif::[]
-=======
-image:pictures\yellowspeak.png[YellowSpeak]
-
-image:pictures\yellow.png[Yellow] 
-⠀
->>>>>>> parent of 705e4e9... Readme update
 
 ⠀
 
-<<<<<<< HEAD
-= Automatic Installation
+= Automatic Installation  (Windows and Linux only)
 
- * Download the https://github.com/LeonMarcel-HD/Colorful-Teamspeak-Themes/releases/latest/download/installer[Installer] and execute it.
-=======
-image:pictures\pinkspeak.png[PinkSpeak]
-
-image:pictures\pink.png[Pink] 
-⠀
->>>>>>> parent of 705e4e9... Readme update
+ * Download the https://github.com/LeonMarcel-HD/Colorful-TeamSpeak-Theme/releases/latest/download/Colorful-TeamSpeak-Theme-Installer-Win.exe[**Windows**] or https://github.com/LeonMarcel-HD/Colorful-TeamSpeak-Theme/releases/latest/download/Colorful-TeamSpeak-Theme-Installer-Linux.Linux[**Linux**] Installer and execute it.
 
  * Go trough the "Installation" process.
 
-<<<<<<< HEAD
  * Restart or open TeamSpeak.
 
  * Go into the `Settings -> Apperance -> User Theme` and here you can select the theme typ you want to use.
-=======
-image:pictures\redspeak.png[RedSpeak]
 
-image:pictures\red.png[Red] 
-⠀
->>>>>>> parent of 705e4e9... Readme update
+NOTE: If the Installation does not work please try the Manual Installation!
 
 = Manual Installation
 
- * Download the https://github.com/LeonMarcel-HD/Colorful-Teamspeak-Themes/releases/latest/download/de.leonmarcelhd.colorfulteamspeak[Theme] and move it into the Extentions folder:
+ * Download the https://github.com/LeonMarcel-HD/Colorful-TeamSpeak-Theme/releases/latest/download/colorful.teamspeak.theme.zip[**Theme**], unzip and move it into the Extentions folder:
 
 > Windows: %appdata%\TeamSpeak\Default\extensions
 
 > Linux: ~/.config/TeamSpeak/Default/extensions
 
-<<<<<<< HEAD
 > Mac: ~/Library/Preferences/TeamSpeak/Default/extensions
-=======
-image::pictures\download.png[Download, align=center]
->>>>>>> parent of 705e4e9... Readme update
-
-NOTE: Default stands for you Profile and might be different in your TeamSpeak Installation!
 
  * Restart or open TeamSpeak.
 
  * Go into the `Settings -> Apperance -> User Theme` and here you can select the theme typ you want to use.
+
+NOTE: Default stands for you Profile and might be different in your TeamSpeak Installation!
 ⠀
 
 '''
 
 ⠀
+ifdef::env-github[]
+++++
+<p align="center">
+  <img src="https://raw.githubusercontent.com/LeonMarcel-HD/Colorful-Teamspeak-Themes/main/Pictures/Download.png">
+</p>
+++++
+endif::[]
+
+ifndef::env-github[]
+image::Pictures\Credits.png[Credits, align=center]
+endif::[]
+
+⠀
+
 Special thanks to Gamer92000 for helping me creating these themes.
 
--> https://github.com/Gamer92000[GitHub]
+-> https://github.com/Gamer92000[**GitHub**]
 
--> https://community.teamspeak.com/u/gamer92000[TeamSpeak Forum]
+-> https://community.teamspeak.com/u/gamer92000[**TeamSpeak Forum**]
 
 '''

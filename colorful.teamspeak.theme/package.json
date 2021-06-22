@@ -1,0 +1,71 @@
+{
+  "name": "Colorful TeamSpeak Theme",
+  "description": "Colorful TeamSpeak by LeonMarcelHD",
+  "version": "1.0.0",
+  "identifier": "colorful.teamspeak.theme",
+  "engines": {
+    "teamspeak": 1
+  },
+	"homepage": "https://community.teamspeak.com/u/leonmarcelhd",
+	"repository": {
+		"url": "https://github.com/LeonMarcel-HD/Colorful-TeamSpeak-Theme",
+		"type": "git",
+    "directory": "Colorful-TeamSpeak-Theme"
+	},
+  "image": "Thumbnail.png",
+  "license": "MIT",
+  "author": {
+    "name": "LeonMarcelHD",
+    "url": "https://community.teamspeak.com/u/leonmarcelhd",
+    "userTag": "LeonMarcelHD@myteamspeak.com"
+  },
+  "community": {
+    "room": "#addons:tschat-1.teamspeak.com"
+  },
+  "content": {
+    "themes": [
+      {
+        "name": "TeamSpeak",
+        "source": "Default.css",
+        "apiVersion": 1,
+        "image": "Default.png"
+      },
+      {
+        "name": "​CyanSpeak",
+        "source": "Cyan.css",
+        "apiVersion": 1,
+        "image": "Cyan.png"
+      },
+      {
+        "name": "GreenSpeak",
+        "source": "Green.css",
+        "apiVersion": 1,
+        "image": "Green.png"
+      },
+      {
+        "name": "OrangeSpeak",
+        "source": "Orange.css",
+        "apiVersion": 1,
+        "image": "Orange.png"
+      },
+      {
+        "name": "YellowSpeak",
+        "source": "Yellow.css",
+        "apiVersion": 1,
+        "image": "Yellow.png"
+      },
+      {
+        "name": "​​​​PinkSpeak",
+        "source": "Pink.css",
+        "apiVersion": 1,
+        "image": "Pink.png"
+      },
+      {
+        "name": "RedSpeak",
+        "source": "Red.css",
+        "apiVersion": 1,
+        "image": "Red.png"
+      }
+    ]
+  }
+}

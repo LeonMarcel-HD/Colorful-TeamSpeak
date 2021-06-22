@@ -1,0 +1,8 @@
+@import url(Default.css);
+
+:root {
+    --custom-color-accent-light: #009b79;
+    --custom-color-accent-dark: #035e4a;
+    --custom-color-slider1: #009b79;
+    --custom-color-slider2: #07e0b1;
+}
