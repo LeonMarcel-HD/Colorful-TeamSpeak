@@ -10,10 +10,8 @@ endif::[]
 
 :toc: left
 :idseparator: -
-ifdef::env-github,safe-mode-secure[]
 :toc:
 :toc-placement!:
-endif::[]
 
 ifdef::env-github,safe-mode-secure[]
 toc::[]
@@ -24,16 +22,23 @@ ifdef::env-github[]
 endif::[]
 
 '''
-
 ⠀
+ifdef::env-github[]
+++++
+<p align="center">
+  <img src="https://raw.githubusercontent.com/LeonMarcel-HD/Colorful-Teamspeak-Themes/main/Pictures/Title.png">
+</p>
+++++
+endif::[]
 
+ifndef::env-github[]
 image::Pictures\Title.png[Colorful TeamSpeak Theme, align=center]
-
+endif::[]
 ⠀
 
 '''
 
-This theme…
+= This theme…
 
 * changes the default color of TeamSpeak to the selected color
 
@@ -46,64 +51,82 @@ image:Pictures\Bubbles.png[No Bubbles in Chat]
 
 
 image:Pictures\Fav.png[Favorite Star in Contact List]
-⠀
 
 '''
 
-image:Pictures\CyanSpeak.png[CyanSpeak]
-
-image:Pictures\Cyan.png[Cyan]
-⠀
+= image:Pictures\Cyan.png[Cyan]
 
 '''
 
-⠀
-image:Pictures\GreenSpeak.png[GreenSpeak]
-
-image:Pictures\Green.png[Green]
-⠀
+= image:Pictures\Green.png[Green]
 
 '''
 
-⠀
-image:Pictures\OrangeSpeak.png[OrangeSpeak]
-
-image:Pictures\Orange.png[Orange] 
-⠀
+= image:Pictures\Orange.png[Orange] 
 
 '''
 
-⠀
-image:Pictures\YellowSpeak.png[YellowSpeak]
-
-image:Pictures\Yellow.png[Yellow] 
-⠀
+= image:Pictures\Yellow.png[Yellow] 
 
 '''
-⠀
 
-image:Pictures\PinkSpeak.png[PinkSpeak]
-
-image:Pictures\Pink.png[Pink] 
-⠀
+= image:Pictures\Pink.png[Pink] 
 
 '''
-⠀
 
-image:Pictures\RedSpeak.png[RedSpeak]
-
-image:Pictures\Red.png[Red] 
-⠀
-
-'''
-⠀
-
-image::Pictures\Download.png[Download, align=center]
-
-⠀
+= image:Pictures\Red.png[Red]
 
 '''
 
 ⠀
+ifdef::env-github[]
+++++
+<p align="center">
+  <img src="https://raw.githubusercontent.com/LeonMarcel-HD/Colorful-Teamspeak-Themes/main/Pictures/Download.png">
+</p>
+++++
+endif::[]
 
-Special thanks to @Gamer92000 for helping me creating these themes.
+ifndef::env-github[]
+image::Pictures\Download.png[Download and Installation, align=center]
+endif::[]
+
+⠀
+
+= Automatic Installation
+
+ * Download the https://github.com/LeonMarcel-HD/Colorful-Teamspeak-Themes/releases/latest/download/installer[Installer] and execute it.
+
+ * Go trough the "Installation" process.
+
+ * Restart or open TeamSpeak.
+
+ * Go into the `Settings -> Apperance -> User Theme` and here you can select the theme typ you want to use.
+
+= Manual Installation
+
+ * Download the https://github.com/LeonMarcel-HD/Colorful-Teamspeak-Themes/releases/latest/download/de.leonmarcelhd.colorfulteamspeak[Theme] and move it into the Extentions folder:
+
+> Windows: %appdata%\TeamSpeak\Default\extensions
+
+> Linux: ~/.config/TeamSpeak/Default/extensions
+
+> Mac: ~/Library/Preferences/TeamSpeak/Default/extensions
+
+NOTE: Default stands for you Profile and might be different in your TeamSpeak Installation!
+
+ * Restart or open TeamSpeak.
+
+ * Go into the `Settings -> Apperance -> User Theme` and here you can select the theme typ you want to use.
+⠀
+
+'''
+
+⠀
+Special thanks to Gamer92000 for helping me creating these themes.
+
+-> https://github.com/Gamer92000[GitHub]
+
+-> https://community.teamspeak.com/u/gamer92000[TeamSpeak Forum]
+
+'''
