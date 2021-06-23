@@ -33,7 +33,7 @@ endif::[]
 
 '''
 
-= This theme…
+= This Extention...
 
 * changes the default color of TeamSpeak to the selected color
 
@@ -92,9 +92,9 @@ endif::[]
 
 = Automatic Installation  (Windows and Linux only)
 
- * Download the https://github.com/LeonMarcel-HD/Colorful-TeamSpeak-Theme/releases/latest/download/Colorful-TeamSpeak-Installer-Win.exe[**Windows**] or https://github.com/LeonMarcel-HD/Colorful-TeamSpeak-Theme/releases/latest/download/Colorful-TeamSpeak-Installer-Linux[**Linux**] Installer and execute it.
+ * Download the https://github.com/LeonMarcel-HD/Colorful-TeamSpeak/releases/latest/download/Colorful-TeamSpeak-Installer-Win.exe[**Windows**] or https://github.com/LeonMarcel-HD/Colorful-TeamSpeak/releases/latest/download/Colorful-TeamSpeak-Installer-Linux[**Linux**] Installer and execute it.
 
-WARNING: For Linux it might be necessary to run `chomod +x ./Colorful-TeamSpeak-Theme-Installer-Linux` to make it executable.
+WARNING: For Linux it might be necessary to run `chomod +x ./Colorful-TeamSpeak-Installer-Linux` to make it executable.
 
  * Go trough the "Installation" process.
 
@@ -106,13 +106,13 @@ NOTE: If the Installation does not work please try the Manual Installation!
 
 = Manual Installation
 
- * Download the https://github.com/LeonMarcel-HD/Colorful-TeamSpeak-Theme/releases/latest/download/de.leonmarcelhd.colorful.teamspeak.zip[**Theme**], unzip and move it into the Extentions folder:
+ * Download the https://github.com/LeonMarcel-HD/Colorful-TeamSpeak/releases/latest/download/de.leonmarcelhd.colorful.teamspeak.zip[**Theme**], unzip and move it into the Extentions folder:
 
-> Windows: %appdata%\TeamSpeak\Default\extensions
+> **Windows:** %appdata%\TeamSpeak\Default\extensions
 
-> Linux: ~/.config/TeamSpeak/Default/extensions
+> **Linux:** ~/.config/TeamSpeak/Default/extensions
 
-> Mac: ~/Library/Preferences/TeamSpeak/Default/extensions
+> **Mac:** ~/Library/Preferences/TeamSpeak/Default/extensions
 
  * Restart or open TeamSpeak.
 
@@ -138,10 +138,6 @@ endif::[]
 
 ⠀
 
-Special thanks to Gamer92000 for helping me creating these themes.
-
--> https://github.com/Gamer92000[**GitHub**]
-
--> https://community.teamspeak.com/u/gamer92000[**TeamSpeak Forum**]
+Special thanks to https://community.teamspeak.com/u/gamer92000[**Gamer92000**] and https://community.teamspeak.com/u/cobra[**Cobra**] for helping me creating this Extention.
 
 '''
