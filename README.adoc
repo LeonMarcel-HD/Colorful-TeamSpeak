@@ -13,7 +13,7 @@ toc::[]
 endif::[]
 
 ifdef::env-github[]
-:imagesdir: https://raw.githubusercontent.com/LeonMarcel-HD/Colorful-Teamspeak-Themes/main/
+:imagesdir: https://raw.githubusercontent.com/LeonMarcel-HD/Colorful-TeamSpeak/main/
 endif::[]
 
 '''
@@ -21,7 +21,7 @@ endif::[]
 ifdef::env-github[]
 ++++
 <p align="center">
-  <img src="https://raw.githubusercontent.com/LeonMarcel-HD/Colorful-Teamspeak-Themes/main/Pictures/Title.png">
+  <img src="https://raw.githubusercontent.com/LeonMarcel-HD/Colorful-TeamSpeak/main/Pictures/Title.png">
 </p>
 ++++
 endif::[]
@@ -79,7 +79,7 @@ image:Pictures\Red.png[Red]
 ifdef::env-github[]
 ++++
 <p align="center">
-  <img src="https://raw.githubusercontent.com/LeonMarcel-HD/Colorful-Teamspeak-Themes/main/Pictures/Download.png">
+  <img src="https://raw.githubusercontent.com/LeonMarcel-HD/Colorful-TeamSpeak/main/Pictures/Download.png">
 </p>
 ++++
 endif::[]
@@ -127,7 +127,7 @@ NOTE: Default stands for you Profile and might be different in your TeamSpeak In
 ifdef::env-github[]
 ++++
 <p align="center">
-  <img src="https://raw.githubusercontent.com/LeonMarcel-HD/Colorful-Teamspeak-Themes/main/Pictures/Credits.png">
+  <img src="https://raw.githubusercontent.com/LeonMarcel-HD/Colorful-TeamSpeak/main/Pictures/Credits.png">
 </p>
 ++++
 endif::[]
