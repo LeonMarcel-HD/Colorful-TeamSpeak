@@ -1,16 +1,16 @@
 {
-  "name": "Colorful TeamSpeak Theme",
+  "name": "Colorful TeamSpeak",
   "description": "Colorful TeamSpeak by LeonMarcelHD",
   "version": "1.0.0",
-  "identifier": "colorful.teamspeak.theme",
+  "identifier": "de.leonmarcelhd.colorful.teamspeak",
   "engines": {
     "teamspeak": 1
   },
 	"homepage": "https://community.teamspeak.com/u/leonmarcelhd",
 	"repository": {
-		"url": "https://github.com/LeonMarcel-HD/Colorful-TeamSpeak-Theme",
+		"url": "https://github.com/LeonMarcel-HD/Colorful-TeamSpeak",
 		"type": "git",
-    "directory": "Colorful-TeamSpeak-Theme"
+    "directory": "Colorful-TeamSpeak"
 	},
   "image": "Thumbnail.png",
   "license": "MIT",

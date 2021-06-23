@@ -92,7 +92,7 @@ endif::[]
 
 = Automatic Installation  (Windows and Linux only)
 
- * Download the https://github.com/LeonMarcel-HD/Colorful-TeamSpeak-Theme/releases/latest/download/Colorful-TeamSpeak-Theme-Installer-Win.exe[**Windows**] or https://github.com/LeonMarcel-HD/Colorful-TeamSpeak-Theme/releases/latest/download/Colorful-TeamSpeak-Theme-Installer-Linux.Linux[**Linux**] Installer and execute it.
+ * Download the https://github.com/LeonMarcel-HD/Colorful-TeamSpeak-Theme/releases/latest/download/Colorful-TeamSpeak-Installer-Win.exe[**Windows**] or https://github.com/LeonMarcel-HD/Colorful-TeamSpeak-Theme/releases/latest/download/Colorful-TeamSpeak-Installer-Linux[**Linux**] Installer and execute it.
 
 WARNING: For Linux it might be necessary to run `chomod +x ./Colorful-TeamSpeak-Theme-Installer-Linux` to make it executable.
 
@@ -106,7 +106,7 @@ NOTE: If the Installation does not work please try the Manual Installation!
 
 = Manual Installation
 
- * Download the https://github.com/LeonMarcel-HD/Colorful-TeamSpeak-Theme/releases/latest/download/colorful.teamspeak.theme.zip[**Theme**], unzip and move it into the Extentions folder:
+ * Download the https://github.com/LeonMarcel-HD/Colorful-TeamSpeak-Theme/releases/latest/download/de.leonmarcelhd.colorful.teamspeak.zip[**Theme**], unzip and move it into the Extentions folder:
 
 > Windows: %appdata%\TeamSpeak\Default\extensions
 
