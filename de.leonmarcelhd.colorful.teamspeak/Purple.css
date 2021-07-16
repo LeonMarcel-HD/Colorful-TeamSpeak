@@ -1,0 +1,8 @@
+@import url(TeamSpeak.css);
+
+:root {
+    --custom-color-accent-light: #8d5dd6;
+    --custom-color-accent-dark: #63458f;
+    --custom-color-slider1: #8d5dd6;
+    --custom-color-slider2: #9d79d4;
+}

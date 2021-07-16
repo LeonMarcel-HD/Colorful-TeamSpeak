@@ -14,8 +14,8 @@
     --custom-color-dark-grey: #1c2538;
     --custom-color-accent-really-dark: #2b2b2b;
     --custom-color-off-white: #e0e0e0;
-    --custom-color-accent-light: #16bcfb;
-    --custom-color-accent-dark: #1487fa;
+    --custom-color-accent-light: #1488FA;
+    --custom-color-accent-dark: #8AC5FC;
     --custom-color-slider1: #16bcfb;
     --custom-color-slider2: #fa17ca;
     --custom-color-secondary-text: #bebebe;
@@ -28,8 +28,8 @@
 }
 
 :root { /* override everywhere (bad practice ) */
-    --tsv-icon-tint: var(--custom-color-accent-light) !important;
-    --tsv-icon-tint2: var(--custom-color-accent-light) !important;
+    --tsv-icon-tint: var(#158BBB) !important;
+    --tsv-icon-tint2: var(#158BBB) !important;
     --tsv-tint: var(--custom-color-accent-light) !important;
     --tsv-tint2: var(--custom-color-accent-light) !important;
     --tsv-separation-border: none !important;
@@ -37,7 +37,7 @@
     --tsv-button-bg: var(--custom-color-accent-dark) !important;
     --tsv-button-hover-bg: var(--custom-color-accent-light) !important;
     --ts-menu-action-color: var(--custom-color-accent-dark) !important;
-    --tsv-icon-folder: var(--custom-color-accent-light) !important;
+    --tsv-icon-folder: var(#158BBB) !important;
     --tsv-chat-remote-bg: transparent !important;
     --tsv-chat-self-bg: transparent !important;
     --tsv-chat-deleted-bg: transparent !important;
@@ -109,7 +109,7 @@
 }
 
 .ts-slider-track[style] {
-    background: linear-gradient(90deg, var(--custom-color-accent-light), var(--custom-color-accent-dark));
+    background: linear-gradient(90deg, var(--custom-color-slider1), var(--custom-color-slider2));
 }
 
 .ts-slider:not(.ts-slider-compact) .ts-slider-segment::after {

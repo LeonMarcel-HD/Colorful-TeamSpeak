@@ -21,19 +21,18 @@ endif::[]
 ifdef::env-github[]
 ++++
 <p align="center">
-  <img src="https://raw.githubusercontent.com/LeonMarcel-HD/Colorful-TeamSpeak/main/Pictures/Title.png">
+  <img src="https://raw.githubusercontent.com/LeonMarcel-HD/Colorful-TeamSpeak/main/Pictures/Thumbnail.png">
 </p>
 ++++
 endif::[]
 
 ifndef::env-github[]
-image::Pictures\Title.png[Colorful TeamSpeak Theme, align=center]
+image::Pictures\Thumbnail.png[Colorful TeamSpeak Theme, align=center]
 endif::[]
-⠀
 
 '''
 
-= This Extention...
+= This theme...
 
 * changes the default color of TeamSpeak to the selected color
 
@@ -45,9 +44,11 @@ image:Pictures\Bubbles.png[No Bubbles in Chat]
 +
 image:Pictures\Fav.png[Favorite Star in Contact List]
 
+
+
 '''
 
-image:Pictures\Default.png[Default]
+image:Pictures\TeamSpeak.png[TeamSpeak]
 
 '''
 
@@ -59,7 +60,15 @@ image:Pictures\Green.png[Green]
 
 '''
 
+image:Pictures\DarkGreen.png[DarkGreen]
+
+'''
+
 image:Pictures\Orange.png[Orange]
+
+'''
+
+image:Pictures\DarkOrange.png[DarkOrange]
 
 '''
 
@@ -75,6 +84,17 @@ image:Pictures\Red.png[Red]
 
 '''
 
+image:Pictures\DarkRed.png[DarkRed]
+
+'''
+
+image:Pictures\Purple.png[Purple]
+
+'''
+
+image:Pictures\Gray.png[Gray]
+
+'''
 ⠀
 ifdef::env-github[]
 ++++

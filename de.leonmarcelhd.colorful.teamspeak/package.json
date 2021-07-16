@@ -1,7 +1,7 @@
 {
   "name": "Colorful TeamSpeak",
   "description": "Colorful TeamSpeak by LeonMarcelHD",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "identifier": "de.leonmarcelhd.colorful.teamspeak",
   "engines": {
     "teamspeak": 1
@@ -26,45 +26,75 @@
     "themes": [
       {
         "name": "TeamSpeak",
-        "source": "Default.css",
+        "source": "TeamSpeak.css",
         "apiVersion": 1,
-        "image": "Default.png"
+        "image": "TeamSpeak.png"
       },
       {
-        "name": "​CyanSpeak",
+        "name": "Cyan",
         "source": "Cyan.css",
         "apiVersion": 1,
         "image": "Cyan.png"
       },
       {
-        "name": "GreenSpeak",
+        "name": "Green",
         "source": "Green.css",
         "apiVersion": 1,
         "image": "Green.png"
       },
       {
-        "name": "OrangeSpeak",
+        "name": "Dark Green",
+        "source": "DarkGreen.css",
+        "apiVersion": 1,
+        "image": "DarkGreen.png"
+      },
+      {
+        "name": "Orange",
         "source": "Orange.css",
         "apiVersion": 1,
         "image": "Orange.png"
       },
       {
-        "name": "YellowSpeak",
+        "name": "Dark Orange",
+        "source": "DarkOrange.css",
+        "apiVersion": 1,
+        "image": "DarkOrange.png"
+      },
+      {
+        "name": "Yellow",
         "source": "Yellow.css",
         "apiVersion": 1,
         "image": "Yellow.png"
       },
       {
-        "name": "​​​​PinkSpeak",
+        "name": "Pink",
         "source": "Pink.css",
         "apiVersion": 1,
         "image": "Pink.png"
       },
       {
-        "name": "RedSpeak",
+        "name": "Red ",
         "source": "Red.css",
         "apiVersion": 1,
         "image": "Red.png"
+      },
+      {
+        "name": "Dark Red",
+        "source": "DarkRed.css",
+        "apiVersion": 1,
+        "image": "DarkRed.png"
+      },
+      {
+        "name": "Purple",
+        "source": "Purple.css",
+        "apiVersion": 1,
+        "image": "Purple.png"
+      },
+      {
+        "name": "Gray",
+        "source": "Gray.css",
+        "apiVersion": 1,
+        "image": "Gray.png"
       }
     ]
   }
