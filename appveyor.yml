@@ -97,7 +97,7 @@ deploy:
   release: v$(APPVEYOR_BUILD_VERSION)
   provider: GitHub
   auth_token:
-    secure: /0qzsjzcLA8cowC+5DuwuZ4ofMh4ILLwAch1kA6cXig71Pl8kLYEP+Kd1kbNJnWs
+    secure: Ad1xMpP0g2Jm9ypVrWy/UjzwxrsOL/ycMMaIaPJ7ojVAd6OyDuPZpfHuSvmwViOt
   artifact: /.*/                   # upload all artifacts to release assets
   draft: true
   on:
