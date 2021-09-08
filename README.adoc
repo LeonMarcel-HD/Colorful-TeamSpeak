@@ -21,13 +21,13 @@ endif::[]
 ifdef::env-github[]
 ++++
 <p align="center">
-  <img src="https://raw.githubusercontent.com/LeonMarcel-HD/Colorful-TeamSpeak/main/Pictures/Thumbnail.png">
+  <img src="https://raw.githubusercontent.com/LeonMarcel-HD/Colorful-TeamSpeak/main/Pictures/ThemeThumbnail.png">
 </p>
 ++++
 endif::[]
 
 ifndef::env-github[]
-image::Pictures\Thumbnail.png[Colorful TeamSpeak Theme, align=center]
+image::Pictures\ThemeThumbnail.png[Colorful TeamSpeak Theme, align=center]
 endif::[]
 
 '''
@@ -44,6 +44,7 @@ image:Pictures\Bubbles.png[No Bubbles in Chat]
 +
 image:Pictures\Fav.png[Favorite Star in Contact List]
 
+* and more
 
 
 '''
@@ -138,8 +139,27 @@ NOTE: If the Installation does not work please try the Manual Installation!
 
  * Go into the `Settings -> Apperance -> User Theme` and here you can select the theme typ you want to use.
 
-NOTE: Default stands for you Profile and might be different in your TeamSpeak Installation!
+NOTE: Default stands for your Profile and might be different in your TeamSpeak Installation!
 ⠀
+
+'''
+⠀
+ifdef::env-github[]
+++++
+<p align="center">
+  <img src="https://raw.githubusercontent.com/LeonMarcel-HD/Colorful-TeamSpeak/main/Pictures/ChatRoom.png">
+</p>
+++++
+endif::[]
+
+ifndef::env-github[]
+image::Pictures\ChatRoom.png[Chat Room, align=center]
+endif::[]
+
+
+Join the Colorful TeamSpeak Chat Room to stay always up to date and get updated on new releases.
+
+> **Chat Room:** #colorful.teamspeak:tschat-1.teamspeak.com
 
 '''
 
@@ -158,6 +178,6 @@ endif::[]
 
 ⠀
 
-Special thanks to https://community.teamspeak.com/u/gamer92000[**Gamer92000**] and https://community.teamspeak.com/u/cobra[**Cobra**] for helping me creating this Extention.
+Special thanks to https://community.teamspeak.com/u/gamer92000[**Gamer92000**] for helping me creating this Extention. And especially to whole team https://community.teamspeak.com[**TeamSpeak**] for implementing the official theming engine!
 
 '''
