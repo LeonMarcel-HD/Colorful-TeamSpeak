@@ -42,7 +42,7 @@ for:
   -
     matrix:
       only:
-        - image: Visual Studio 2019
+        - image: Visual Studio 2019 1
     clone_folder: C:\TeamSpeakTheme
     before_build: 
       - ps: C:\Python39\python.exe .\Build\assembleInstallScript-Default.py
@@ -54,7 +54,7 @@ for:
   -
     matrix:
       only:
-        - image: Visual Studio 2019
+        - image: Visual Studio 2019 2
     clone_folder: C:\TeamSpeakTheme
     before_build: 
       - ps: C:\Python39\python.exe .\Build\assembleInstallScript-Light.py
@@ -66,7 +66,7 @@ for:
   -
     matrix:
       only:
-        - image: Visual Studio 2019
+        - image: Visual Studio 2019 3
     clone_folder: C:\TeamSpeakTheme
     before_build: 
       - ps: C:\Python39\python.exe .\Build\assembleInstallScript-Dark.py
@@ -78,7 +78,7 @@ for:
   -
     matrix:
       only:
-        - image: Ubuntu
+        - image: Ubuntu 1
     clone_folder: /home/appveyor/TeamSpeakTheme
     before_build: 
       - sudo apt-get install -y makeself zip
@@ -91,12 +91,12 @@ for:
   -
     matrix:
       only:
-        - image: Ubuntu
+        - image: Ubuntu 2
     clone_folder: /home/appveyor/TeamSpeakTheme
     before_build: 
       - sudo apt-get install -y makeself zip
     build_script: 
-      - make -f Build/Makefile
+      - make -f Build/Makefile-Light
     artifacts:
       - path: Colorful-TeamSpeak-Light-Installer-Linux
       - path: de.leonmarcelhd.colorful.teamspeak.light.zip
@@ -104,12 +104,12 @@ for:
   -
     matrix:
       only:
-        - image: Ubuntu
+        - image: Ubuntu 3
     clone_folder: /home/appveyor/TeamSpeakTheme
     before_build: 
       - sudo apt-get install -y makeself zip
     build_script: 
-      - make -f Build/Makefile
+      - make -f Build/Makefile-Dark
     artifacts:
       - path: Colorful-TeamSpeak-Dark-Installer-Linux
       - path: de.leonmarcelhd.colorful.teamspeak.dark.zip
