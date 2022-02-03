@@ -1,0 +1,102 @@
+{
+  "name": "Colorful TeamSpeak | Light Edition",
+  "description": "Colorful TeamSpeak by LeonMarcelHD",
+  "version": "1.0.3",
+  "identifier": "de.leonmarcelhd.colorful.teamspeak.light",
+  "engines": {
+    "teamspeak": 1
+  },
+	"homepage": "https://community.teamspeak.com/t/skin-colorful-teamspeak-a-teamspeak-5-extension/24082?u=leonmarcelhd",
+  "docsUrl": "https://community.teamspeak.com/t/skin-colorful-teamspeak-a-teamspeak-5-extension/24082?u=leonmarcelhd",
+	"repository": {
+		"url": "https://github.com/LeonMarcel-HD/Colorful-TeamSpeak",
+		"type": "git",
+    "directory": "Colorful-TeamSpeak"
+	},
+  "image": "Thumbnail.png",
+  "license": "MIT",
+  "author": {
+    "name": "LeonMarcelHD",
+    "url": "https://community.teamspeak.com/u/leonmarcelhd",
+    "userTag": "LeonMarcelHD@myteamspeak.com"
+  },
+  "community": {
+    "room": "#extensions:chat.teamspeak.com"
+  },
+  "content": {
+    "themes": [
+      {
+        "name": "TeamSpeak",
+        "source": "TeamSpeak.css",
+        "apiVersion": 1,
+        "image": "TeamSpeak.png"
+      },
+      {
+        "name": "Cyan",
+        "source": "Cyan.css",
+        "apiVersion": 1,
+        "image": "Cyan.png"
+      },
+      {
+        "name": "Green",
+        "source": "Green.css",
+        "apiVersion": 1,
+        "image": "Green.png"
+      },
+      {
+        "name": "Dark Green",
+        "source": "DarkGreen.css",
+        "apiVersion": 1,
+        "image": "DarkGreen.png"
+      },
+      {
+        "name": "Orange",
+        "source": "Orange.css",
+        "apiVersion": 1,
+        "image": "Orange.png"
+      },
+      {
+        "name": "Dark Orange",
+        "source": "DarkOrange.css",
+        "apiVersion": 1,
+        "image": "DarkOrange.png"
+      },
+      {
+        "name": "Yellow",
+        "source": "Yellow.css",
+        "apiVersion": 1,
+        "image": "Yellow.png"
+      },
+      {
+        "name": "Pink",
+        "source": "Pink.css",
+        "apiVersion": 1,
+        "image": "Pink.png"
+      },
+      {
+        "name": "Red ",
+        "source": "Red.css",
+        "apiVersion": 1,
+        "image": "Red.png"
+      },
+      {
+        "name": "Dark Red",
+        "source": "DarkRed.css",
+        "apiVersion": 1,
+        "image": "DarkRed.png"
+      },
+      {
+        "name": "Purple",
+        "source": "Purple.css",
+        "apiVersion": 1,
+        "image": "Purple.png"
+      },
+      {
+        "name": "Gray",
+        "source": "Gray.css",
+        "apiVersion": 1,
+        "image": "Gray.png"
+      }
+    ]
+  }
+}

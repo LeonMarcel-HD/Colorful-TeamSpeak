@@ -1,13 +1,13 @@
 {
   "name": "Colorful TeamSpeak",
   "description": "Colorful TeamSpeak by LeonMarcelHD",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "identifier": "de.leonmarcelhd.colorful.teamspeak",
   "engines": {
     "teamspeak": 1
   },
-	"homepage": "https://community.teamspeak.com/t/skin-colorful-teamspeak-a-teamspeak-5-extention/24082?u=leonmarcelhd",
-  "docsUrl": "https://community.teamspeak.com/t/skin-colorful-teamspeak-a-teamspeak-5-extention/24082?u=leonmarcelhd",
+	"homepage": "https://community.teamspeak.com/t/skin-colorful-teamspeak-a-teamspeak-5-extension/24082?u=leonmarcelhd",
+  "docsUrl": "https://community.teamspeak.com/t/skin-colorful-teamspeak-a-teamspeak-5-extension/24082?u=leonmarcelhd",
 	"repository": {
 		"url": "https://github.com/LeonMarcel-HD/Colorful-TeamSpeak",
 		"type": "git",
@@ -21,7 +21,7 @@
     "userTag": "LeonMarcelHD@myteamspeak.com"
   },
   "community": {
-    "room": "#colorful.teamspeak:tschat-1.teamspeak.com"
+    "room": "#extensions:chat.teamspeak.com"
   },
   "content": {
     "themes": [
