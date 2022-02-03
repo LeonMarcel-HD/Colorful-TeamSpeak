@@ -115,9 +115,9 @@ image::Pictures\ChatRoom.png[Chat Room, align=center]
 endif::[]
 
 
-Join the Colorful TeamSpeak Chat Room to stay always up to date and get updated on new releases.
+Join the Official TeamSpeak Extensions Chat Room chat about the theme.
 
-> **Chat Room:** #colorful.teamspeak:tschat-1.teamspeak.com
+> **Chat Room:** #extensions:chat.teamspeak.com
 
 '''
 

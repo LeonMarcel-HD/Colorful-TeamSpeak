@@ -51,7 +51,7 @@ for:
     artifacts:
       - path: Output/Colorful-TeamSpeak-All-Installer-Win.exe
       
-   -
+  -
     matrix:
       only:
         - image: Visual Studio 2019
