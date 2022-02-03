@@ -87,10 +87,6 @@ for:
     artifacts:
       - path: Output/Colorful-TeamSpeak-Dark-Installer-Win.exe
 
-
-
-
-
   -
     matrix:
       only:
@@ -101,7 +97,7 @@ for:
     build_script: 
       - make -f Build/Makefile
     artifacts:
-      - path: Colorful-TeamSpeak-Installer-Linux
+      - path: Colorful-TeamSpeak-Default-Installer-Linux
       - path: de.leonmarcelhd.colorful.teamspeak.zip
 
   -
@@ -114,20 +110,7 @@ for:
     build_script: 
       - make -f Build/Makefile
     artifacts:
-      - path: Colorful-TeamSpeak-Installer-Linux
-      - path: de.leonmarcelhd.colorful.teamspeak.zip
-
-  -
-    matrix:
-      only:
-        - image: Ubuntu
-    clone_folder: /home/appveyor/TeamSpeakTheme
-    before_build: 
-      - sudo apt-get install -y makeself zip
-    build_script: 
-      - make -f Build/Makefile
-    artifacts:
-      - path: Colorful-TeamSpeak-Installer-Linux
+      - path: Colorful-TeamSpeak-Light-Installer-Linux
       - path: de.leonmarcelhd.colorful.teamspeak.light.zip
 
   -
@@ -140,7 +123,7 @@ for:
     build_script: 
       - make -f Build/Makefile
     artifacts:
-      - path: Colorful-TeamSpeak-Installer-Linux
+      - path: Colorful-TeamSpeak-Dark-Installer-Linux
       - path: de.leonmarcelhd.colorful.teamspeak.dark.zip
 
 
