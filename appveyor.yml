@@ -45,7 +45,7 @@ for:
         - image: Visual Studio 2019
     clone_folder: C:\TeamSpeakTheme
     before_build: 
-      - ps: C:\Python39\python.exe .\Build\assembleInstallScript - Default.py
+      - ps: C:\Python39\python.exe .\Build\assembleInstallScript-Default.py
     build_script: 
       - ps: "& 'C:\\Program Files (x86)\\Inno Setup 6\\iscc.exe' .\\buildInstaller.iss"
     artifacts:
@@ -57,7 +57,7 @@ for:
         - image: Visual Studio 2019
     clone_folder: C:\TeamSpeakTheme
     before_build: 
-      - ps: C:\Python39\python.exe .\Build\assembleInstallScript - Light.py
+      - ps: C:\Python39\python.exe .\Build\assembleInstallScript-Light.py
     build_script: 
       - ps: "& 'C:\\Program Files (x86)\\Inno Setup 6\\iscc.exe' .\\buildInstaller.iss"
     artifacts:
@@ -69,7 +69,7 @@ for:
         - image: Visual Studio 2019
     clone_folder: C:\TeamSpeakTheme
     before_build: 
-      - ps: C:\Python39\python.exe .\Build\assembleInstallScript - Dark.py
+      - ps: C:\Python39\python.exe .\Build\assembleInstallScript-Dark.py
     build_script: 
       - ps: "& 'C:\\Program Files (x86)\\Inno Setup 6\\iscc.exe' .\\buildInstaller.iss"
     artifacts:
