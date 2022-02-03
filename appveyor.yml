@@ -96,7 +96,7 @@ for:
     before_build: 
       - sudo apt-get install -y makeself zip
     build_script: 
-      - make -f Build/Makefile
+      - make -f Build/Makefile-Light
     artifacts:
       - path: Colorful-TeamSpeak-Light-Installer-Linux
       - path: de.leonmarcelhd.colorful.teamspeak.light.zip
@@ -109,7 +109,7 @@ for:
     before_build: 
       - sudo apt-get install -y makeself zip
     build_script: 
-      - make -f Build/Makefile
+      - make -f Build/Makefile-Dark
     artifacts:
       - path: Colorful-TeamSpeak-Dark-Installer-Linux
       - path: de.leonmarcelhd.colorful.teamspeak.dark.zip
