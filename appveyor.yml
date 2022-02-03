@@ -22,7 +22,7 @@ branches:
     - production
 
 # Maximum number of concurrent jobs for the project
-max_jobs: 1
+max_jobs: 8
 
 #---------------------------------#
 #    environment configuration    #
@@ -38,19 +38,7 @@ image:
 # set clone depth
 clone_depth: 0                      # clone entire repository history if not defined
 
-for:
-  -
-    matrix:
-      only:
-        - image: Visual Studio 2019
-    clone_folder: C:\TeamSpeakTheme
-    before_build: 
-      - ps: C:\Python39\python.exe .\Build\assembleInstallScript.py
-    build_script: 
-      - ps: "& 'C:\\Program Files (x86)\\Inno Setup 6\\iscc.exe' .\\buildInstaller.iss"
-    artifacts:
-      - path: Output/Colorful-TeamSpeak-All-Installer-Win.exe
-      
+for:   
   -
     matrix:
       only:
