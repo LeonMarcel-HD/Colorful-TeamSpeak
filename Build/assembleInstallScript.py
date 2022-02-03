@@ -19,7 +19,7 @@ DisableDirPage=yes
 DefaultGroupName={#MyAppName}
 AllowNoIcons=yes
 PrivilegesRequired=lowest
-OutputBaseFilename=Colorful-TeamSpeak-Installer-Win
+OutputBaseFilename=Colorful-TeamSpeak-All-Installer-Win
 Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
@@ -41,3 +41,20 @@ with open("buildInstaller.iss", "w") as f:
         x = os.path.join(directory, filename)
         f.write(f"Source: \"{x}\"; DestDir: \"{{app}}\"; Flags: ignoreversion\n")
 
+with open("buildInstaller.iss", "w") as f:
+    f.write(pre)
+    import os
+
+    directory = r'C:\TeamSpeakTheme\de.leonmarcelhd.colorful.teamspeak.dark'
+    for filename in os.listdir(directory):
+        x = os.path.join(directory, filename)
+        f.write(f"Source: \"{x}\"; DestDir: \"{{app}}\"; Flags: ignoreversion\n")
+
+with open("buildInstaller.iss", "w") as f:
+    f.write(pre)
+    import os
+
+    directory = r'C:\TeamSpeakTheme\de.leonmarcelhd.colorful.teamspeak.light'
+    for filename in os.listdir(directory):
+        x = os.path.join(directory, filename)
+        f.write(f"Source: \"{x}\"; DestDir: \"{{app}}\"; Flags: ignoreversion\n")

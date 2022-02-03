@@ -16,20 +16,19 @@ ifdef::env-github[]
 :imagesdir: https://raw.githubusercontent.com/LeonMarcel-HD/Colorful-TeamSpeak/main/
 endif::[]
 
+image:https://ci.appveyor.com/api/projects/status/sm0ksh2thah7lc2k?svg=true[] image:https://img.shields.io/github/v/release/leonmarcel-hd/colorful-teamspeak?color=blue&label=Latest Version[link="https://github.com/LeonMarcel-HD/Colorful-TeamSpeak/releases/latest"] image:https://img.shields.io/github/downloads/leonmarcel-hd/colorful-teamspeak/total?color=blue&label=Downloads[link="https://github.com/LeonMarcel-HD/Colorful-TeamSpeak/releases"]
+
 '''
-⠀
 ifdef::env-github[]
 ++++
 <p align="center">
-  <img src="https://raw.githubusercontent.com/LeonMarcel-HD/Colorful-TeamSpeak/main/Pictures/ThemeThumbnail.png">
+  <img src="https://raw.githubusercontent.com/LeonMarcel-HD/Colorful-TeamSpeak/main/Pictures/ForumPost.png">
 </p>
 ++++
 endif::[]
-
 ifndef::env-github[]
-image::Pictures\ThemeThumbnail.png[Colorful TeamSpeak Theme, align=center]
+image::Pictures\ForumPost.png[Title, align=center]
 endif::[]
-
 '''
 
 = This theme...
@@ -49,51 +48,12 @@ image:Pictures\Fav.png[Favorite Star in Contact List]
 
 '''
 
-image:Pictures\TeamSpeak.png[TeamSpeak]
-
-'''
-
-image:Pictures\Cyan.png[Cyan]
-
-'''
-
-image:Pictures\Green.png[Green]
-
-'''
-
-image:Pictures\DarkGreen.png[DarkGreen]
-
-'''
-
-image:Pictures\Orange.png[Orange]
-
-'''
-
-image:Pictures\DarkOrange.png[DarkOrange]
-
-'''
-
-image:Pictures\Yellow.png[Yellow]
-
-'''
-
-image:Pictures\Pink.png[Pink]
-
-'''
-
-image:Pictures\Red.png[Red]
-
-'''
-
-image:Pictures\DarkRed.png[DarkRed]
-
-'''
-
-image:Pictures\Purple.png[Purple]
-
-'''
-
-image:Pictures\Gray.png[Gray]
+image:Pictures\TeamSpeak.png[TeamSpeak,50%,50%]image:Pictures\Cyan.png[Cyan,50%,50%]
+image:Pictures\Green.png[Green,50%,50%]image:Pictures\DarkGreen.png[DarkGreen,50%,50%]
+image:Pictures\Orange.png[Orange,50%,50%]image:Pictures\DarkOrange.png[DarkOrange,50%,50%]
+image:Pictures\Yellow.png[Yellow,50%,50%]image:Pictures\Pink.png[Pink,50%,50%]
+image:Pictures\Red.png[Red,50%,50%]image:Pictures\DarkRed.png[DarkRed,50%,50%]
+image:Pictures\Purple.png[Purple,50%,50%]image:Pictures\Gray.png[Gray,50%,50%]
 
 '''
 ⠀
@@ -119,7 +79,7 @@ WARNING: For Linux it might be necessary to run `chomod +x ./Colorful-TeamSpeak-
 
  * Go trough the "Installation" process.
 
- * Restart or open TeamSpeak.
+ * Reload your themes.
 
  * Go into the `Settings -> Apperance -> User Theme` and here you can select the theme typ you want to use.
 
@@ -127,7 +87,7 @@ NOTE: If the Installation does not work please try the Manual Installation!
 
 = Manual Installation
 
- * Download the https://github.com/LeonMarcel-HD/Colorful-TeamSpeak/releases/latest/download/de.leonmarcelhd.colorful.teamspeak.zip[**Theme**], unzip and move it into the Extentions folder:
+ * Download the https://github.com/LeonMarcel-HD/Colorful-TeamSpeak/releases/latest/download/de.leonmarcelhd.colorful.teamspeak.zip[**Theme**], unzip and move it into the Extensions folder:
 
 > **Windows:** %appdata%\TeamSpeak\Default\extensions
 
@@ -135,11 +95,9 @@ NOTE: If the Installation does not work please try the Manual Installation!
 
 > **Mac:** ~/Library/Preferences/TeamSpeak/Default/extensions
 
- * Restart or open TeamSpeak.
+ * Reload your themes.
 
  * Go into the `Settings -> Apperance -> User Theme` and here you can select the theme typ you want to use.
-
-NOTE: Default stands for your Profile and might be different in your TeamSpeak Installation!
 ⠀
 
 '''
@@ -178,6 +136,6 @@ endif::[]
 
 ⠀
 
-Special thanks to https://community.teamspeak.com/u/gamer92000[**Gamer92000**] for helping me creating this Extention. And especially to whole team https://community.teamspeak.com[**TeamSpeak**] for implementing the official theming engine!
+Special thanks to https://community.teamspeak.com/u/gamer92000[**Gamer92000**] for helping me creating this Extension. And especially to whole team https://community.teamspeak.com[**@TeamSpeak**] for implementing the official theming engine!
 
 '''

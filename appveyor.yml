@@ -49,8 +49,48 @@ for:
     build_script: 
       - ps: "& 'C:\\Program Files (x86)\\Inno Setup 6\\iscc.exe' .\\buildInstaller.iss"
     artifacts:
-      - path: Output/Colorful-TeamSpeak-Installer-Win.exe
+      - path: Output/Colorful-TeamSpeak-All-Installer-Win.exe
       
+   -
+    matrix:
+      only:
+        - image: Visual Studio 2019
+    clone_folder: C:\TeamSpeakTheme
+    before_build: 
+      - ps: C:\Python39\python.exe .\Build\assembleInstallScript - Default.py
+    build_script: 
+      - ps: "& 'C:\\Program Files (x86)\\Inno Setup 6\\iscc.exe' .\\buildInstaller.iss"
+    artifacts:
+      - path: Output/Colorful-TeamSpeak-Default-Installer-Win.exe
+
+  -
+    matrix:
+      only:
+        - image: Visual Studio 2019
+    clone_folder: C:\TeamSpeakTheme
+    before_build: 
+      - ps: C:\Python39\python.exe .\Build\assembleInstallScript - Light.py
+    build_script: 
+      - ps: "& 'C:\\Program Files (x86)\\Inno Setup 6\\iscc.exe' .\\buildInstaller.iss"
+    artifacts:
+      - path: Output/Colorful-TeamSpeak-Light-Installer-Win.exe
+
+  -
+    matrix:
+      only:
+        - image: Visual Studio 2019
+    clone_folder: C:\TeamSpeakTheme
+    before_build: 
+      - ps: C:\Python39\python.exe .\Build\assembleInstallScript - Dark.py
+    build_script: 
+      - ps: "& 'C:\\Program Files (x86)\\Inno Setup 6\\iscc.exe' .\\buildInstaller.iss"
+    artifacts:
+      - path: Output/Colorful-TeamSpeak-Dark-Installer-Win.exe
+
+
+
+
+
   -
     matrix:
       only:
@@ -63,6 +103,45 @@ for:
     artifacts:
       - path: Colorful-TeamSpeak-Installer-Linux
       - path: de.leonmarcelhd.colorful.teamspeak.zip
+
+  -
+    matrix:
+      only:
+        - image: Ubuntu
+    clone_folder: /home/appveyor/TeamSpeakTheme
+    before_build: 
+      - sudo apt-get install -y makeself zip
+    build_script: 
+      - make -f Build/Makefile
+    artifacts:
+      - path: Colorful-TeamSpeak-Installer-Linux
+      - path: de.leonmarcelhd.colorful.teamspeak.zip
+
+  -
+    matrix:
+      only:
+        - image: Ubuntu
+    clone_folder: /home/appveyor/TeamSpeakTheme
+    before_build: 
+      - sudo apt-get install -y makeself zip
+    build_script: 
+      - make -f Build/Makefile
+    artifacts:
+      - path: Colorful-TeamSpeak-Installer-Linux
+      - path: de.leonmarcelhd.colorful.teamspeak.light.zip
+
+  -
+    matrix:
+      only:
+        - image: Ubuntu
+    clone_folder: /home/appveyor/TeamSpeakTheme
+    before_build: 
+      - sudo apt-get install -y makeself zip
+    build_script: 
+      - make -f Build/Makefile
+    artifacts:
+      - path: Colorful-TeamSpeak-Installer-Linux
+      - path: de.leonmarcelhd.colorful.teamspeak.dark.zip
 
 
 #---------------------------------#

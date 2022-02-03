@@ -6,9 +6,6 @@
     --custom-color-slider2: #fb16c9;
     --custom-color-secondary-text: #bebebe;
     --custom-value-scrollbar-width: 6px;
-    --custom-value-font: 'Roboto Condensed', sans-serif;
-    --custom-value-font-weight: 300;
-    --custom-color-channel-commander-light: #FB842E;
     --default-tsv-tint: #16BCFB;
 }
 
@@ -29,17 +26,36 @@
     --tsv-chat-link-color: var(--custom-color-accent-light) !important;
     --ts-chat-system-highlight-text-color: var(--custom-color-accent-light) !important;
     --tsv-highlight-color: var(--custom-color-accent-light) !important;
+    --ts-drag-border: var(--custom-color-accent-light) !important;
+    --ts-select-arrow-color: var(--custom-color-accent-light) !important;
+}
+
+
+/* DISCOVERY HEADER */
+.ts-discovery-card .ts-discovery-header {
+    background: linear-gradient(to bottom, var(--custom-color-accent-dark), var(--custom-color-accent-light)) !important;
+}
+
+.ts-discovery-card .ts-discovery-header::before {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.200), rgba(0, 0, 0, 0.100)) !important;
+}
+
+/* DRAG N DROP */
+
+.ts-dnd-drag-into:after {
+    background-color: transparent;
+    border: 1px solid var(--custom-color-accent-light);
 }
 
 
 /* SIDEBAR HEADER */
 
 .tsv-highlight.tsv-header {
-    background: linear-gradient(to bottom, transparent 0%, var(--custom-color-accent-dark) 33%, var(--custom-color-accent-light) 100%);
+    background: linear-gradient(to bottom, var(--custom-color-accent-dark), var(--custom-color-accent-light)) !important;
 }
 
 .tsv-highlight.tsv-header:before {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.300) 80%, var(--custom-color-accent-light) 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.200), rgba(0, 0, 0, 0.100)) !important;
 }
 
 
@@ -83,13 +99,6 @@
 /* CHECKBOX */
 
 .ts-checkbox-checkmark-path {
-    stroke: var(--custom-color-accent-light) !important;
-}
-
-
-/* READ STATUS */
-
-:is(.ts-chat-room-event-detailed, .ts-chat-room-event-compact) :is(.ts-chat-message-status, .ts-chat-message-status-detailed) path {
     stroke: var(--custom-color-accent-light) !important;
 }
 
@@ -199,6 +208,10 @@
 
 /* CHANNEL COMMANDER */
 
+.tsv-server-tree-icon-client-channel-commander-normal {
+    fill: var(--custom-color-accent-really-dark) !important;
+}
+
 .tsv-icon-client-talking circle {
     fill: var(--custom-color-accent-light) !important;
 }
@@ -209,9 +222,9 @@ div:not(.channel-commander)>div>.tsv-icon-client-voiceless circle {
 }
 
 .channel-commander :is(.tsv-icon-client-talking) circle {
-    fill: var(--custom-color-channel-commander-light) !important;
+    fill: var(--tsv-client-commander-talking--outline) !important;
 }
 
 div.channel-commander>div> :is(.tsv-icon-client-normal, .tsv-icon-client-voiceless) circle {
-    fill: var(--custom-color-accent-light) !important;
+    fill: var(--custom-color-accent-really-dark) !important;
 }
