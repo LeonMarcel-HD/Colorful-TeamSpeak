@@ -31,22 +31,24 @@ image::Pictures\ForumPost.png[Title, align=center]
 endif::[]
 '''
 
-= This theme...
+= This theme changes the colors of TeamSpeak to match your preferences!
 
-* changes the default color of TeamSpeak to the selected color
+= Default variant:
 
-* disables the chat bubbles of messages 
-+
-image:Pictures\Bubbles.png[No Bubbles in Chat]
+image:Pictures\Default.png[Default]
 
-* redesigns the favorite contact view
-+
-image:Pictures\Fav.png[Favorite Star in Contact List]
+= Light variant:
 
-* and more
+image:Pictures\Light.png[Light]
+
+= Dark variant:
+
+image:Pictures\Dark.png[Dark]
 
 
 '''
+
+= Colors featured in this theme:
 
 image:Pictures\TeamSpeak.png[TeamSpeak,50%,50%]image:Pictures\Cyan.png[Cyan,50%,50%]
 image:Pictures\Green.png[Green,50%,50%]image:Pictures\DarkGreen.png[DarkGreen,50%,50%]
@@ -56,7 +58,7 @@ image:Pictures\Red.png[Red,50%,50%]image:Pictures\DarkRed.png[DarkRed,50%,50%]
 image:Pictures\Purple.png[Purple,50%,50%]image:Pictures\Gray.png[Gray,50%,50%]
 
 '''
-⠀
+
 ifdef::env-github[]
 ++++
 <p align="center">
@@ -69,39 +71,35 @@ ifndef::env-github[]
 image::Pictures\Download.png[Download and Installation, align=center]
 endif::[]
 
-⠀
+|===
+| |**Windows Installer**|**Linux Installer**|**Theme Folder** 
 
-= Automatic Installation  (Windows and Linux only)
+|**Default**
+|https://github.com/LeonMarcel-HD/Colorful-TeamSpeak/releases/latest/download/Colorful-TeamSpeak-Default-Installer-Win.exe[Windows \| Default]|https://github.com/LeonMarcel-HD/Colorful-TeamSpeak/releases/latest/download/Colorful-TeamSpeak-Default-Installer-Linux[Linux \| Default]|https://github.com/LeonMarcel-HD/Colorful-TeamSpeak/releases/latest/download/de.leonmarcelhd.colorful.teamspeak.zip[Theme \| Default]
 
- * Download the https://github.com/LeonMarcel-HD/Colorful-TeamSpeak/releases/latest/download/Colorful-TeamSpeak-Installer-Win.exe[**Windows**] or https://github.com/LeonMarcel-HD/Colorful-TeamSpeak/releases/latest/download/Colorful-TeamSpeak-Installer-Linux[**Linux**] Installer and execute it.
+|**Dark**
+|https://github.com/LeonMarcel-HD/Colorful-TeamSpeak/releases/latest/download/Colorful-TeamSpeak-Dark-Installer-Win.exe[Windows \| Dark]|https://github.com/LeonMarcel-HD/Colorful-TeamSpeak/releases/latest/download/Colorful-TeamSpeak-Dark-Installer-Linux[Linux \| Dark]|https://github.com/LeonMarcel-HD/Colorful-TeamSpeak/releases/latest/download/de.leonmarcelhd.colorful.teamspeak.dark.zip[Theme \| Dark]
 
-WARNING: For Linux it might be necessary to run `chomod +x ./Colorful-TeamSpeak-Installer-Linux` to make it executable.
+|**Light**
+|https://github.com/LeonMarcel-HD/Colorful-TeamSpeak/releases/latest/download/Colorful-TeamSpeak-Light-Installer-Win.exe[Windows \| Light]|https://github.com/LeonMarcel-HD/Colorful-TeamSpeak/releases/latest/download/Colorful-TeamSpeak-Light-Installer-Linux[Linux \| Light]|https://github.com/LeonMarcel-HD/Colorful-TeamSpeak/releases/latest/download/de.leonmarcelhd.colorful.teamspeak.light.zip[Theme \| Light]
+|===
 
- * Go trough the "Installation" process.
+= Installing the theme
 
- * Reload your themes.
+The theme can be activated in `Settings -> Apperance -> User Theme`
+*(you need to reload the themes or restart the client for it to show up)*
 
- * Go into the `Settings -> Apperance -> User Theme` and here you can select the theme typ you want to use.
-
-NOTE: If the Installation does not work please try the Manual Installation!
-
-= Manual Installation
-
- * Download the https://github.com/LeonMarcel-HD/Colorful-TeamSpeak/releases/latest/download/de.leonmarcelhd.colorful.teamspeak.zip[**Theme**], unzip and move it into the Extensions folder:
-
+> **Default Extensions folder:**
+>
 > **Windows:** %appdata%\TeamSpeak\Default\extensions
-
+>
 > **Linux:** ~/.config/TeamSpeak/Default/extensions
-
+>
 > **Mac:** ~/Library/Preferences/TeamSpeak/Default/extensions
 
- * Reload your themes.
-
- * Go into the `Settings -> Apperance -> User Theme` and here you can select the theme typ you want to use.
-⠀
+NOTE: For Linux it might be necessary to run `chomod +x ./Colorful-TeamSpeak-Installer-VARIANT-Linux` to make it executable.
 
 '''
-⠀
 ifdef::env-github[]
 ++++
 <p align="center">
@@ -114,14 +112,11 @@ ifndef::env-github[]
 image::Pictures\ChatRoom.png[Chat Room, align=center]
 endif::[]
 
-
-Join the Official TeamSpeak Extensions Chat Room chat about the theme.
+Join the Official TeamSpeak Extensions Chat Room to chat about the theme.
 
 > **Chat Room:** #extensions:chat.teamspeak.com
 
 '''
-
-⠀
 ifdef::env-github[]
 ++++
 <p align="center">
@@ -133,8 +128,6 @@ endif::[]
 ifndef::env-github[]
 image::Pictures\Credits.png[Credits, align=center]
 endif::[]
-
-⠀
 
 Special thanks to https://community.teamspeak.com/u/gamer92000[**Gamer92000**] for helping me creating this Extension. And especially to whole team https://community.teamspeak.com[**@TeamSpeak**] for implementing the official theming engine!
 
