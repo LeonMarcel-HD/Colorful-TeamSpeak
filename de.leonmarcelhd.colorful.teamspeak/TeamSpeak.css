@@ -4,6 +4,8 @@
     --custom-color-accent-really-dark: #2b2b2b;
     --custom-color-accent-light: #16BCFB;
     --custom-color-accent-dark: #1488FA;
+    --custom-color-accent-light-t: rgba(22, 188, 251, 0.5);
+    --custom-color-accent-dark-t: rgba(20, 136, 250, 0.5);
     --custom-color-slider1: #16BCFB;
     --custom-color-slider2: #fb16c9;
     --custom-color-secondary-text: #bebebe;
@@ -36,6 +38,10 @@
     --tsv-client-silent--gradient-stop: var(--tsv-contrast-bg) !important;
     --tsv-client-talking--gradient-start: var(--custom-color-accent-light) !important;
     --tsv-client-talking--gradient-stop: var(--custom-color-accent-dark) !important;
+    --ts-chat-system-message-color: #dfdfdf0c !important;
+    --tsv-scrollbar-bg: #0a0a0e !important;
+    --tsv-scrollbar-chunks--bg-1: var(--custom-color-accent-light) !important;
+    --tsv-scrollbar-chunks--bg-2: var(--custom-color-accent-dark-t) !important;
 }
 
 
@@ -55,12 +61,13 @@ strong {
 
 /* REPLY & EDIT */
 
-.ts-currently-referencing .ts-chat-room-event-bubble {
+.ts-chat-room-event-bubble.self-mention {
     --tsv-chat-link-color: #e4e4e4 !important;
 }
 
 .ts-currently-referencing .ts-chat-room-event-bubble {
     background: var(--custom-color-accent-light) !important;
+    --tsv-chat-link-color: #e4e4e4 !important;
 }
 
 .ts-currently-referencing .ts-chat-room-event-bubble::before {
@@ -107,8 +114,8 @@ div.ts-permission-value.tsv-flex-center>div>div>div>svg>g:nth-child(2)>path {
     fill: var(--tsv-bg) !important;
 }
 
-.ts-checkbox .ts-checkbox-inner .ts-checkbox-background {
-    background-color: var(--tsv-shaded-bg) !important;
+div.tsv-window :is(.tsv-server-info-settings, .tsv-server-settings-advanced) .ts-checkbox .ts-checkbox-inner .ts-checkbox-background {
+    background-color: var(--tsv-bg) !important;
 }
 
 .ts-checkbox-checkmark-path {
@@ -130,8 +137,8 @@ div.ts-permission-value.tsv-flex-center>div>div>div>svg>g:nth-child(2)>path {
 /* DRAG N DROP */
 
 .ts-dnd-drag-into:after {
-    background-color: transparent;
-    border: 1px solid var(--custom-color-accent-light);
+    background-color: var(--custom-color-accent-dark-t) !important;
+    border: 1px solid var(--custom-color-accent-light) !important;
 }
 
 
@@ -150,7 +157,7 @@ div.ts-permission-value.tsv-flex-center>div>div>div>svg>g:nth-child(2)>path {
 
 .tsv-background-canvas.small,
 .tsv-background-canvas.fancy {
-    background: radial-gradient(circle, var(--custom-color-accent-light), var(--custom-color-accent-dark));
+    background: radial-gradient(circle, var(--custom-color-accent-light), var(--custom-color-accent-dark)) !important;
 }
 
 
@@ -194,14 +201,18 @@ div.ts-permission-value.tsv-flex-center>div>div>div>svg>g:nth-child(2)>path {
 
 .ts-server-events-list li.ts-event-cyan,
 .ts-server-logs-list li.ts-event-cyan {
-    border-left-color: var(--default-tsv-tint);
+    border-left-color: var(--default-tsv-tint) !important;
 }
 
 
 /* ACTIVITY TRIANGLE */
 
 .tsv-has-scrollbar .tsv-item-active-indicator {
-    right: 6px;
+    right: 6px !important;
+}
+
+.tsv-has-scrollbar .tsv-item-active-secondary .tsv-item-active-indicator{
+    right: 12px !important;
 }
 
 
@@ -278,10 +289,6 @@ div.ts-permission-value.tsv-flex-center>div>div>div>svg>g:nth-child(2)>path {
 
 /* BUBBLES */
 
-.ts-chat-room-event-bubble.self-mention>.ts-chat-message-content {
-    color: var(--tsv-chat-mention-bg) !important;
-}
-
 .ts-chat-room-event-detailed:not(.ts-currently-referencing, .apparently-people-like-huge-faces) .ts-chat-room-event-bubble {
     background: var(--tsv-chat-self-bg) !important;
 }
@@ -290,13 +297,15 @@ div.ts-permission-value.tsv-flex-center>div>div>div>svg>g:nth-child(2)>path {
     border-right: 6px solid var(--tsv-chat-self-bg) !important;
 }
 
-.ts-parsed-text-content .spoiler:not([visible]) {
-    background-color: #ACADB1 !important;
+.ts-chat-room-event-detailed .ts-chat-room-event-bubble.self-mention {
+    background: var(--custom-color-accent-light) !important;
+    color: black !important;
 }
 
+.ts-chat-room-event-detailed .ts-chat-room-event-bubble.self-mention::before {
+    border-right: 6px solid var(--custom-color-accent-light) !important;
+}
 
-/* SYSTEM MESSAGE */
-
-.ts-chat-message-system-body {
-    --ts-chat-system-message-color: #dfdfdf0c !important;
+.ts-parsed-text-content .spoiler:not([visible]) {
+    background-color: #ACADB1 !important;
 }

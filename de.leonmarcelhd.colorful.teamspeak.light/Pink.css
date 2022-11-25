@@ -3,6 +3,8 @@
 :root, ::after, ::before {
     --custom-color-accent-light: #da328c;
     --custom-color-accent-dark: #961259;
+    --custom-color-accent-light-t: rgba(218, 50, 140, 0.5);
+    --custom-color-accent-dark-t: rgba(150, 18, 89, 0.5);
     --custom-color-slider1: #da328c;
     --custom-color-slider2: #ff66b8;
 }
