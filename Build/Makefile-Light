@@ -1,3 +1,0 @@
-all:
-	makeself --target "\$$HOME/.config/TeamSpeak/Default/extensions/de.leonmarcelhd.colorful.teamspeak.light" de.leonmarcelhd.colorful.teamspeak.light Colorful-TeamSpeak-Light-Installer-Linux "Colorful-TeamSpeak-Light-Installer-Linux" echo "Finished installing Colorful-TeamSpeak-Light"
-	zip -r de.leonmarcelhd.colorful.teamspeak.light.zip de.leonmarcelhd.colorful.teamspeak.light
