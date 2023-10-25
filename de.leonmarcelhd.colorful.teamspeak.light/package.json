@@ -1,7 +1,7 @@
 {
   "name": "Colorful TeamSpeak | Light Edition",
   "description": "Colorful TeamSpeak by LeonMarcelHD",
-  "version": "1.0.3",
+  "version": "1.0.6",
   "identifier": "de.leonmarcelhd.colorful.teamspeak.light",
   "engines": {
     "teamspeak": 1
