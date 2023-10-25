@@ -86,6 +86,10 @@ strong {
     background: var(--custom-color-accent-dark) !important;
 }
 
+.ts-chat-room-event-selected div.ts-chat-message-attachment-header > div.ts-chat-message-attachment-link.ts-chat-message-attachment-header-title > a {
+    color: #e4e4e4 !important;
+}
+
 
 /* TOGGLE */
 
@@ -125,11 +129,11 @@ div.tsv-window :is(.tsv-server-info-settings, .tsv-server-settings-advanced) .ts
 
 /* DISCOVERY HEADER */
 
-.ts-discovery-card .ts-discovery-header {
+.ts-discovery-header.ts-default-background {
     background: linear-gradient(to bottom, var(--custom-color-accent-dark), var(--custom-color-accent-light)) !important;
 }
 
-.ts-discovery-card .ts-discovery-header::before {
+.ts-discovery-header.ts-default-background::before {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.200), rgba(0, 0, 0, 0.100)) !important;
 }
 
@@ -202,17 +206,6 @@ div.tsv-window :is(.tsv-server-info-settings, .tsv-server-settings-advanced) .ts
 .ts-server-events-list li.ts-event-cyan,
 .ts-server-logs-list li.ts-event-cyan {
     border-left-color: var(--default-tsv-tint) !important;
-}
-
-
-/* ACTIVITY TRIANGLE */
-
-.tsv-has-scrollbar .tsv-item-active-indicator {
-    right: 6px !important;
-}
-
-.tsv-has-scrollbar .tsv-item-active-secondary .tsv-item-active-indicator{
-    right: 12px !important;
 }
 
 

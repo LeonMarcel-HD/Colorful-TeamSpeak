@@ -1,7 +1,6 @@
 :root,
  ::after,
  ::before {
-    --custom-color-accent-really-dark: #2b2b2b;
     --custom-color-accent-light: #16BCFB;
     --custom-color-accent-dark: #1488FA;
     --custom-color-accent-light-t: rgba(22, 188, 251, 0.5);
@@ -11,6 +10,12 @@
     --custom-color-secondary-text: #bebebe;
     --custom-value-scrollbar-width: 6px;
     --default-tsv-tint: #16BCFB;
+
+    --custom-value-dark1: #0a0a0e;
+    --custom-value-dark2: #1a1a1e;
+    --custom-value-dark3: #1c1c20;
+    --custom-value-dark4: #171718;
+    --custom-value-dark5: #242428;
 }
 
 :root,
@@ -23,9 +28,9 @@
     --tsv-button-bg: var(--custom-color-accent-dark) !important;
     --tsv-button-hover-bg: var(--custom-color-accent-light) !important;
     --ts-menu-action-color: var(--custom-color-accent-dark) !important;
-    --tsv-chat-remote-bg: #181819 !important;
-    --tsv-chat-self-bg: #181819 !important;
-    --tsv-chat-deleted-bg: #181819 !important;
+    --tsv-chat-remote-bg: var(--custom-value-dark4) !important;
+    --tsv-chat-self-bg: var(--custom-value-dark4) !important;
+    --tsv-chat-deleted-bg: var(--custom-value-dark4) !important;
     --tsv-chat-deleted-font-color: #DA3250 !important;
     --tsv-chat-link-color: var(--custom-color-accent-light) !important;
     --tsv-chat-remote-font-color: var(--tsv-chat-self-font-color) !important;
@@ -37,23 +42,23 @@
     --tsv-font-color: #d7d7d7 !important;
     --tsv-font-subtitle-color: #b1b1b1 !important;
     --ts-third-font-color: #fdfdfd !important;
-    --tsv-bg: #242428 !important;
-    --tsv-shaded-bg: #1c1c20 !important;
-    --tsv-contrast-bg: #0a0a0e !important;
-    --tsv-contrast-strong-bg: #0a0a0e !important;
-    --ts-context-menu-background: #1a1a1e !important;
-    --tsv-context-menu-border: #1a1a1e !important;
+    --tsv-bg: var(--custom-value-dark5) !important;
+    --tsv-shaded-bg: var(--custom-value-dark3) !important;
+    --tsv-contrast-bg: var(--custom-value-dark1) !important;
+    --tsv-contrast-strong-bg: var(--custom-value-dark1) !important;
+    --ts-context-menu-background: var(--custom-value-dark2) !important;
+    --tsv-context-menu-border: var(--custom-value-dark2) !important;
     --tsv-context-menu-item-selection: #373741 !important;
     --tsv-header-bg: linear-gradient(to bottom, var(--tsv-shaded-bg), var(--tsv-contrast-bg)) !important;
     --ts-chat-system-message-bg: var(--tsv-contrast-bg) !important;
     --tsv-unrelated-activity-header-bg: none !important;
-    --tsv-slider-track-bg: #101010 !important;
+    --tsv-slider-track-bg: var(--custom-value-dark2) !important;
     --tsv-client-silent--gradient-start: var(--tsv-bg) !important;
     --tsv-client-silent--gradient-stop: var(--tsv-contrast-bg) !important;
     --tsv-client-talking--gradient-start: var(--custom-color-accent-light) !important;
     --tsv-client-talking--gradient-stop: var(--custom-color-accent-dark) !important;
     --ts-chat-system-message-color: #dfdfdf0c !important;
-    --tsv-scrollbar-bg: #0a0a0e !important;
+    --tsv-scrollbar-bg: var(--custom-value-dark1) !important;
     --tsv-scrollbar-chunks--bg-1: var(--custom-color-accent-light) !important;
     --tsv-scrollbar-chunks--bg-2: var(--custom-color-accent-dark-t) !important;
 }
@@ -98,6 +103,10 @@ strong {
 
 .ts-currently-referencing .ts-chat-message-attachment .ts-chat-message-attachment-inner .ts-chat-message-attachment-generic-file {
     background: var(--custom-color-accent-dark) !important;
+}
+
+.ts-chat-room-event-selected div.ts-chat-message-attachment-header > div.ts-chat-message-attachment-link.ts-chat-message-attachment-header-title > a {
+    color: #e4e4e4 !important;
 }
 
 
@@ -146,11 +155,11 @@ div.tsv-window :is(.tsv-server-info-settings, .tsv-server-settings-advanced) .ts
 
 /* DISCOVERY HEADER */
 
-.ts-discovery-card .ts-discovery-header {
+.ts-discovery-header.ts-default-background {
     background: linear-gradient(to bottom, var(--custom-color-accent-dark), var(--custom-color-accent-light)) !important;
 }
 
-.ts-discovery-card .ts-discovery-header::before {
+.ts-discovery-header.ts-default-background::before {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.200), rgba(0, 0, 0, 0.100)) !important;
 }
 
@@ -223,17 +232,6 @@ div.tsv-window :is(.tsv-server-info-settings, .tsv-server-settings-advanced) .ts
 .ts-server-events-list li.ts-event-cyan,
 .ts-server-logs-list li.ts-event-cyan {
     border-left-color: var(--default-tsv-tint) !important;
-}
-
-
-/* ACTIVITY TRIANGLE */
-
-.tsv-has-scrollbar .tsv-item-active-indicator {
-    right: 6px !important;
-}
-
-.tsv-has-scrollbar .tsv-item-active-secondary .tsv-item-active-indicator{
-    right: 12px !important;
 }
 
 
