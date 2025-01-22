@@ -1,330 +1,353 @@
 :root,
- ::after,
- ::before {
-    --custom-color-accent-light: #16BCFB;
-    --custom-color-accent-dark: #1488FA;
-    --custom-color-accent-light-t: rgba(22, 188, 251, 0.5);
-    --custom-color-accent-dark-t: rgba(20, 136, 250, 0.5);
-    --custom-color-slider1: #16BCFB;
-    --custom-color-slider2: #fb16c9;
-    --custom-color-secondary-text: #bebebe;
-    --custom-value-scrollbar-width: 6px;
-    --default-tsv-tint: #16BCFB;
+::after,
+::before {
+  --custom-color-accent-light: #16bcfb;
+  --custom-color-accent-dark: #1488fa;
+  --custom-color-accent-light-t: rgba(22, 188, 251, 0.5);
+  --custom-color-accent-dark-t: rgba(20, 136, 250, 0.5);
+  --custom-color-slider1: #16bcfb;
+  --custom-color-slider2: #fb16c9;
+  --custom-color-secondary-text: #bebebe;
+  --custom-value-scrollbar-width: 6px;
+  --default-tsv-tint: #16bcfb;
 
-    --custom-value-dark1: #0a0a0e;
-    --custom-value-dark2: #1a1a1e;
-    --custom-value-dark3: #1c1c20;
-    --custom-value-dark4: #171718;
-    --custom-value-dark5: #242428;
+  --custom-value-dark1: #0a0a0f;
+  --custom-value-dark2: #121216;
+  --custom-value-dark3: #1a1a1f;
+  --custom-value-dark4: #171720;
+  --custom-value-dark5: #212125;
+  --custom-value-dark6: #252529;
+  --custom-value-dark7: #343438;
 }
 
 :root,
- ::after,
- ::before {
-    --tsv-tint: var(--custom-color-accent-light) !important;
-    --tsv-tint2: var(--custom-color-accent-light) !important;
-    --tsv-separation-border: none !important;
-    --tsv-control-handle-active-bg: var(--custom-color-accent-light) !important;
-    --tsv-button-bg: var(--custom-color-accent-dark) !important;
-    --tsv-button-hover-bg: var(--custom-color-accent-light) !important;
-    --ts-menu-action-color: var(--custom-color-accent-dark) !important;
-    --tsv-chat-remote-bg: var(--custom-value-dark4) !important;
-    --tsv-chat-self-bg: var(--custom-value-dark4) !important;
-    --tsv-chat-deleted-bg: var(--custom-value-dark4) !important;
-    --tsv-chat-deleted-font-color: #DA3250 !important;
-    --tsv-chat-link-color: var(--custom-color-accent-light) !important;
-    --tsv-chat-remote-font-color: var(--tsv-chat-self-font-color) !important;
-    --tsv-chat-self-font-color: var(--tsv-chat-self-font-color) !important;
-    --ts-chat-system-highlight-text-color: var(--custom-color-accent-light) !important;
-    --tsv-highlight-color: var(--custom-color-accent-light) !important;
-    --ts-drag-border: var(--custom-color-accent-light) !important;
-    --ts-select-arrow-color: var(--custom-color-accent-light) !important;
-    --tsv-font-color: #d7d7d7 !important;
-    --tsv-font-subtitle-color: #b1b1b1 !important;
-    --ts-third-font-color: #fdfdfd !important;
-    --tsv-bg: var(--custom-value-dark5) !important;
-    --tsv-shaded-bg: var(--custom-value-dark3) !important;
-    --tsv-contrast-bg: var(--custom-value-dark1) !important;
-    --tsv-contrast-strong-bg: var(--custom-value-dark1) !important;
-    --ts-context-menu-background: var(--custom-value-dark2) !important;
-    --tsv-context-menu-border: var(--custom-value-dark2) !important;
-    --tsv-context-menu-item-selection: #373741 !important;
-    --tsv-header-bg: linear-gradient(to bottom, var(--tsv-shaded-bg), var(--tsv-contrast-bg)) !important;
-    --ts-chat-system-message-bg: var(--tsv-contrast-bg) !important;
-    --tsv-unrelated-activity-header-bg: none !important;
-    --tsv-slider-track-bg: var(--custom-value-dark2) !important;
-    --tsv-client-silent--gradient-start: var(--tsv-bg) !important;
-    --tsv-client-silent--gradient-stop: var(--tsv-contrast-bg) !important;
-    --tsv-client-talking--gradient-start: var(--custom-color-accent-light) !important;
-    --tsv-client-talking--gradient-stop: var(--custom-color-accent-dark) !important;
-    --ts-chat-system-message-color: #dfdfdf0c !important;
-    --tsv-scrollbar-bg: var(--custom-value-dark1) !important;
-    --tsv-scrollbar-chunks--bg-1: var(--custom-color-accent-light) !important;
-    --tsv-scrollbar-chunks--bg-2: var(--custom-color-accent-dark-t) !important;
+::after,
+::before {
+  --tsv-tint: var(--custom-color-accent-light) !important;
+  --tsv-tint2: var(--custom-color-accent-light) !important;
+  --tsv-separation-border: none !important;
+  --tsv-control-handle-active-bg: var(--custom-color-accent-light) !important;
+  --tsv-button-bg: var(--custom-color-accent-dark) !important;
+  --tsv-button-hover-bg: var(--custom-color-accent-light) !important;
+  --ts-menu-action-color: var(--custom-color-accent-dark) !important;
+  --tsv-chat-remote-bg: var(--custom-value-dark4) !important;
+  --tsv-chat-self-bg: var(--custom-value-dark4) !important;
+  --tsv-chat-deleted-bg: var(--custom-value-dark4) !important;
+  --tsv-chat-deleted-font-color: #da3250 !important;
+  --tsv-chat-link-color: var(--custom-color-accent-light) !important;
+  --tsv-chat-remote-font-color: var(--tsv-chat-self-font-color) !important;
+  --tsv-chat-self-font-color: var(--tsv-chat-self-font-color) !important;
+  --ts-chat-system-highlight-text-color: var(--custom-color-accent-light) !important;
+  --tsv-highlight-color: var(--custom-color-accent-light) !important;
+  --ts-drag-border: var(--custom-color-accent-light) !important;
+  --ts-select-arrow-color: var(--custom-color-accent-light) !important;
+  --tsv-font-color: #d7d7d7 !important;
+  --tsv-font-subtitle-color: #b1b1b1 !important;
+  --ts-third-font-color: #fdfdfd !important;
+  --tsv-bg: var(--custom-value-dark6) !important;
+  --tsv-shaded-bg: var(--custom-value-dark3) !important;
+  --tsv-contrast-bg: var(--custom-value-dark1) !important;
+  --tsv-contrast-strong-bg: var(--custom-value-dark1) !important;
+  --ts-context-menu-background: var(--custom-value-dark2) !important;
+  --tsv-context-menu-border: var(--custom-value-dark2) !important;
+  --tsv-context-menu-item-selection: #373741 !important;
+  --tsv-header-bg: linear-gradient(to bottom, var(--tsv-shaded-bg), var(--tsv-contrast-bg)) !important;
+  --ts-chat-system-message-bg: var(--tsv-contrast-bg) !important;
+  --tsv-unrelated-activity-header-bg: none !important;
+  --tsv-slider-track-bg: var(--custom-value-dark2) !important;
+  --tsv-client-silent--gradient-start: var(--tsv-bg) !important;
+  --tsv-client-silent--gradient-stop: var(--tsv-contrast-bg) !important;
+  --tsv-client-talking--gradient-start: var(--custom-color-accent-light) !important;
+  --tsv-client-talking--gradient-stop: var(--custom-color-accent-dark) !important;
+  --ts-chat-system-message-color: #dfdfdf0c !important;
+  --tsv-scrollbar-bg: var(--custom-value-dark1) !important;
+  --tsv-scrollbar-chunks--bg-1: var(--custom-color-accent-light) !important;
+  --tsv-scrollbar-chunks--bg-2: var(--custom-color-accent-dark-t) !important;
+
+  --tsv-chat-link-color: var(--custom-color-accent-light) !important;
+  --strong-bg: var(--custom-value-dark4) !important;
+  --ts-new-header-bg: var(--custom-value-dark3) !important;
+  --tsv-header-bg: var(--custom-value-dark4) !important;
+  --tsv-button-filled-bg: linear-gradient(45deg, var(--custom-color-accent-light), var(--custom-color-accent-dark)) !important;
+  --tsv-button-filled-disabled-bg: linear-gradient(45deg, var(--custom-color-accent-dark-t), var(--custom-value-dark7)) !important;
+  --tsv-chat-widget-bg: var(--custom-value-dark5) !important;
+  --card-outline: var(--custom-color-accent-light) !important;
+  --tsv-deviant-bg: var(--custom-value-dark5) !important;
+  --tsv-servertree-bg-gradient: linear-gradient(25deg, var(--custom-value-dark5) 0%, var(--custom-value-dark6) 60%) !important;
+  --tsv-view-header-bg: linear-gradient(45deg, var(--custom-value-dark2), var(--custom-value-dark5)) !important;
+  --tsv-view-header-gradient-start: var(--custom-value-dark5) !important;
+  --tsv-server-header-gradient-start: linear-gradient(45deg, var(--custom-value-dark3) 0%, var(--custom-value-dark5) 100%) !important;
+  --tsv-server-header-gradient-end: var(--custom-value-dark5) !important;
+  --card-background: var(--custom-value-dark5) !important;
+  --card-hover-background: var(--custom-value-dark7) !important;
+  --hero-button-background: var(--tsv-font-color) !important;
+  --presence-separator-presence: var(--custom-value-dark7) !important;
+  --horizontal-separator-color: var(--custom-value-dark7) !important;
+  --tsv-side-bar-bg-gradient-bottom: var(--custom-value-dark5) !important;
+  --ts-tree-badges-bg: var(--custom-value-dark7) !important;
+  --highlight-outline-color: var(--custom-color-accent-dark-t) !important;
+  --tsv-preview-bg: var(--custom-value-dark7) !important;
+  --tsv-highlight-header-bg: linear-gradient(to right, var(--custom-color-accent-dark-t) 0, var(--custom-value-dark5) 100%) !important;
 }
 
+/* SELF */
 
-/* ATTACHMENT BORDER */
-
-.ts-rendered-message:not(.ts-currently-referencing, .ts-chat-room-event-selected) .ts-chat-message-attachment .ts-chat-message-attachment-inner {
-    border-color: var(--tsv-contrast-bg) !important;
+/* SERVER CHAT MOVE */
+.tsv-activity-group-list > li li:not(:first-child) {
+  padding-left: calc(var(--tsv-padding-h) + 10px) !important;
 }
 
-
-/* BOLD STRENGTH */
-
-strong {
-    font-weight: 700 !important;
+/* ATTACHMENTS HIGHT */
+.ts-chat-message-attachment-myts-file.isImage {
+  height: unset !important;
 }
 
-
-/* REPLY & EDIT & MENTION */
-
-.ts-chat-room-event-bubble.self-mention {
-    --tsv-chat-link-color: #e4e4e4 !important;
+.ts-chat-message-attachment .ts-chat-message-attachment-inner .ts-chat-message-attachment-image {
+  height: unset !important;
 }
 
-.ts-currently-referencing .ts-chat-room-event-bubble {
-    background: var(--custom-color-accent-light) !important;
-    --tsv-chat-link-color: #e4e4e4 !important;
+/* SELF */
+
+/* SERVER TREE HORIZONTAL LINE */
+.tsv-footer::before {
+  border-top-color: var(--custom-value-dark7) !important;
 }
 
-.ts-currently-referencing .ts-chat-room-event-bubble::before {
-    border-right: 6px solid var(--custom-color-accent-light) !important;
+/* SPACER GRADIENT */
+
+.ts-server-tree-item-leaf.spacer .ts-server-tree-item-background-no-image,
+.ts-server-tree-item-leaf.spacer .tsv-item-highlight {
+  background: linear-gradient(-115deg, var(--custom-value-dark7), var(--custom-color-accent-dark-t)) !important;
 }
 
-.ts-rendered-message .ts-reply .ts-reply-icon {
-    --tsv-icon-base: var(--tsv-font-subtitle-color) !important;
+/* BACKGROUND COLOR */
+
+.tsv-sidebar .tsv-body-background {
+  background: linear-gradient(to bottom, var(--ts-new-header-bg), var(--tsv-side-bar-bg-gradient-bottom)) !important;
 }
 
-.ts-currently-referencing .ts-chat-message-attachment-footer.ts-noselect > a {
-    color: #e4e4e4 !important;
+/* ANIMATION HERO BUTTON */
+
+.tsv-button-hero {
+  animation: pulse 2s infinite !important;
+  box-shadow: 0px 0px 0px 0px #909090 !important;
 }
 
-.ts-currently-referencing .ts-chat-message-attachment .ts-chat-message-attachment-inner .ts-chat-message-attachment-generic-file {
-    background: var(--custom-color-accent-dark) !important;
+@keyframes pulse {
+  0% {
+    box-shadow: 0px 0px 0px 0px #909090 !important;
+  }
+  70% {
+    box-shadow: 0px 0px 0px 10px rgba(37, 221, 133, 0) !important;
+  }
+  100% {
+    box-shadow: 0px 0px 0px 0px rgba(37, 221, 133, 0) !important;
+  }
 }
-
-.ts-chat-room-event-selected div.ts-chat-message-attachment-header > div.ts-chat-message-attachment-link.ts-chat-message-attachment-header-title > a {
-    color: #e4e4e4 !important;
-}
-
-
-/* TOGGLE */
-
-.ts-toggle {
-    background: var(--tsv-bg) !important;
-}
-
-
-/* NUMBER PICKER */
-
-.tsv-number-picker .tsv-number-picker-field input {
-    background: var(--tsv-bg) !important;
-}
-
-
-/* IDENTIFIER */
-
-.ts-card-setting-container .ts-identifier-label {
-    background-color: var(--tsv-bg) !important;
-}
-
-
-/* CHECKBOX */
-
-div.ts-permission-value.tsv-flex-center>div>div>div>svg>g:nth-child(2)>path {
-    fill: var(--tsv-bg) !important;
-}
-
-div.tsv-window :is(.tsv-server-info-settings, .tsv-server-settings-advanced) .ts-checkbox .ts-checkbox-inner .ts-checkbox-background {
-    background-color: var(--tsv-bg) !important;
-}
-
-.ts-checkbox-checkmark-path {
-    stroke: var(--custom-color-accent-light) !important;
-}
-
-
-/* INFO NOTE */
-
-.tsv-server-info-footer {
-    color: var(--tsv-font-subtitle-color) !important;
-}
-
 
 /* DISCOVERY HEADER */
 
 .ts-discovery-header.ts-default-background {
-    background: linear-gradient(to bottom, var(--custom-color-accent-dark), var(--custom-color-accent-light)) !important;
+  background: linear-gradient(45deg, var(--tsv-server-header-gradient-start) 0%, var(--tsv-server-header-gradient-end) 100%) !important;
 }
 
-.ts-discovery-header.ts-default-background::before {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.200), rgba(0, 0, 0, 0.100)) !important;
+.ts-discovery-header.ts-default-background:before {
+  -webkit-mask: none !important;
 }
 
+/* DASHBOARD */
+
+.tsv-dashboard-servers__content,
+.tsv-dashboard-chats,
+.tsv-dashboard-news,
+.ts-discovery-wrapper {
+  background: linear-gradient(45deg, var(--tsv-server-header-gradient-end) 0%, var(--strong-bg) 100%) !important;
+}
+
+/* SERVER TREE OUTLINE */
+
+.ts-server-header .tsv-view-banner.tsv-active .tsv-view-background::after,
+.ts-account-settings-view .tsv-view-banner.tsv-active .tsv-view-background::after {
+  border: none !important;
+}
+
+/* LINK COLOR */
+
+.ts-chat-room-event-detailed .ts-chat-room-event-bubble a {
+  color: var(--custom-color-accent-light) !important;
+}
+
+/* ATTACHMENT BORDER */
+
+.ts-rendered-message:not(.ts-currently-referencing, .ts-chat-room-event-selected)
+  .ts-chat-message-attachment
+  .ts-chat-message-attachment-inner {
+  border-color: var(--tsv-contrast-bg) !important;
+}
+
+/* BOLD STRENGTH */
+
+strong {
+  font-weight: 700 !important;
+}
+
+/* REPLY & EDIT & MENTION */
+
+.ts-chat-room-event-bubble.self-mention {
+  --tsv-chat-link-color: #e4e4e4 !important;
+}
+
+.ts-currently-referencing .ts-chat-room-event-bubble {
+  background: var(--custom-color-accent-light) !important;
+  --tsv-chat-link-color: #e4e4e4 !important;
+}
+
+.ts-currently-referencing .ts-chat-room-event-bubble::before {
+  border-right: 6px solid var(--custom-color-accent-light) !important;
+}
+
+.ts-rendered-message .ts-reply .ts-reply-icon {
+  --tsv-icon-base: var(--tsv-font-subtitle-color) !important;
+}
+
+.ts-currently-referencing .ts-chat-message-attachment-footer.ts-noselect > a {
+  color: #e4e4e4 !important;
+}
+
+.ts-currently-referencing .ts-chat-message-attachment .ts-chat-message-attachment-inner .ts-chat-message-attachment-generic-file {
+  background: var(--custom-color-accent-dark) !important;
+}
+
+.ts-chat-room-event-selected
+  div.ts-chat-message-attachment-header
+  > div.ts-chat-message-attachment-link.ts-chat-message-attachment-header-title
+  > a {
+  color: #e4e4e4 !important;
+}
+
+/* TOGGLE */
+
+.ts-toggle-inner.checked:after {
+  background: var(--custom-color-accent-light) !important;
+}
+
+.ts-toggle.checked {
+  border: 1px solid var(--custom-color-accent-light) !important;
+}
+
+/* INFO NOTE */
+
+.tsv-server-info-footer {
+  color: var(--tsv-font-subtitle-color) !important;
+}
 
 /* DRAG N DROP */
 
 .ts-dnd-drag-into:after {
-    background-color: var(--custom-color-accent-dark-t) !important;
-    border: 1px solid var(--custom-color-accent-light) !important;
+  background-color: var(--custom-color-accent-dark-t) !important;
+  border: 1px solid var(--custom-color-accent-light) !important;
 }
-
-
-/* SIDEBAR HEADER */
-
-.tsv-highlight.tsv-header {
-    background: linear-gradient(to bottom, var(--custom-color-accent-dark), var(--custom-color-accent-light)) !important;
-}
-
-.tsv-highlight.tsv-header:before {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.200), rgba(0, 0, 0, 0.100)) !important;
-}
-
-
-/* HEX */
-
-.tsv-background-canvas.small,
-.tsv-background-canvas.fancy {
-    background: radial-gradient(circle, var(--custom-color-accent-light), var(--custom-color-accent-dark)) !important;
-}
-
 
 /* MULTISELECT */
 
 .ts-chat-room-event-compact.ts-chat-room-event-selected .ts-chat-message-compact-container .actual:before {
-    box-shadow: 0 0 0 1px var(--custom-color-accent-dark) !important;
-    background: var(--custom-color-accent-dark) !important;
+  box-shadow: 0 0 0 1px var(--custom-color-accent-dark) !important;
+  background: var(--custom-color-accent-dark) !important;
 }
 
 .ts-chat-room-event-selected .ts-chat-message-attachment-container .ts-chat-message-attachment-inner {
-    --room-event-highlight-border: var(--custom-color-accent-light) !important;
-    --room-event-highlight-border2: var(--custom-color-accent-dark) !important;
-    --room-event-highlight-bg: var(--custom-color-accent-dark) !important;
-    --tsv-shaded-bg-selection: var(--custom-color-accent-dark) !important;
-    background: var(--custom-color-accent-dark) !important;
-    border-color: var(--custom-color-accent-light) !important;
+  --room-event-highlight-border: var(--custom-color-accent-light) !important;
+  --room-event-highlight-border2: var(--custom-color-accent-dark) !important;
+  --room-event-highlight-bg: var(--custom-color-accent-dark) !important;
+  --tsv-shaded-bg-selection: var(--custom-color-accent-dark) !important;
+  background: var(--custom-color-accent-dark) !important;
+  border-color: var(--custom-color-accent-light) !important;
 }
 
 .ts-chat-room-event-selected:before {
-    box-shadow: 0 0 0 1px var(--custom-color-accent-dark) !important;
-    background: var(--custom-color-accent-dark) !important;
+  box-shadow: 0 0 0 1px var(--custom-color-accent-dark) !important;
+  background: var(--custom-color-accent-dark) !important;
 }
 
 .ts-chat-room-event-selected .ts-chat-message-system-body:before {
-    background: var(--custom-color-accent-dark) !important;
-    box-shadow: 0 0 0 1px var(--custom-color-accent-dark) !important;
+  background: var(--custom-color-accent-dark) !important;
+  box-shadow: 0 0 0 1px var(--custom-color-accent-dark) !important;
 }
 
 .ts-chat-room-event-selected .ts-chat-message-attachment-footer.ts-noselect > a {
-    color: #e4e4e4 !important;
+  color: #e4e4e4 !important;
 }
 
 .ts-chat-room-event-selected .ts-chat-message-attachment .ts-chat-message-attachment-inner .ts-chat-message-attachment-generic-file {
-    background: var(--custom-color-accent-dark) !important;
-    box-shadow: 0 0 0 1px var(--custom-color-accent-dark) !important;
+  background: var(--custom-color-accent-dark) !important;
+  box-shadow: 0 0 0 1px var(--custom-color-accent-dark) !important;
 }
-
 
 /* SERVER EVENTS */
 
 .ts-server-events-list li.ts-event-cyan,
 .ts-server-logs-list li.ts-event-cyan {
-    border-left-color: var(--default-tsv-tint) !important;
+  border-left-color: var(--default-tsv-tint) !important;
 }
-
 
 /* SCROLLBAR */
 
 ::-webkit-scrollbar-track {
-    background: inherit;
+  background: inherit;
 }
 
 ::-webkit-scrollbar {
-    width: var(--custom-value-scrollbar-width) !important;
-    height: 0px !important;
+  width: var(--custom-value-scrollbar-width) !important;
+  height: 0px !important;
 }
 
-::-webkit-scrollbar-thumb {
-    background-color: var(--custom-color-accent-light) !important;
+::-webkit-scrollbar-thumb,
+.ts-chunk-scroll-track__thumb {
+  background-color: var(--custom-color-accent-light) !important;
 }
-
-
-/* FAV ICON */
-
-.tsv-icon-contact-status-favorite,
-.tsv-icon-chat-room-status-favorite {
-    z-index: 10;
-    left: 13px !important;
-    top: 4px !important;
-    stroke: rgba(0, 0, 0, .7);
-    stroke-width: 1.3px;
-    transform: scale(.61);
-}
-
-.tsv-view-banner :is(.tsv-icon-contact-status-favorite, .tsv-icon-chat-room-status-favorite) {
-    transform: scale(.4) !important;
-    left: 30px !important;
-    top: 15px !important;
-}
-
-.tsv-icon-contact-status-favorite rect,
-.tsv-icon-chat-room-status-favorite rect {
-    display: none;
-}
-
-.tsv-icon-contact-status-favorite path,
-.tsv-icon-chat-room-status-favorite path {
-    d: path('m 11.6 0 l 3 8 l 8.6 0.4 L 16.4 13.7 L 18.7 22 L 11.6 17.3 L 4.4 22 L 6.7 13.7 L 0 8.4 l 8.6 -0.4 z') !important;
-    fill: var(--custom-color-accent-light);
-    stroke-width: 2px;
-    stroke: transparent;
-}
-
 
 /* SLIDER */
 
 .ts-slider-segment-value.ts-slider-segment-value-on {
-    background: linear-gradient(90deg, var(--custom-color-slider1), var(--custom-color-slider1)) border-box !important;
+  background: linear-gradient(90deg, var(--custom-color-slider1), var(--custom-color-slider1)) border-box !important;
 }
 
 .ts-slider-segment-value.ts-slider-segment-value-off {
-    background: linear-gradient(90deg, var(--custom-color-slider2), var(--custom-color-slider2)) border-box !important;
+  background: linear-gradient(90deg, var(--custom-color-slider2), var(--custom-color-slider2)) border-box !important;
 }
-
 
 /* CHAT INPUT */
 
-.ts-chat-input-container.focus, .ts-chat-input-container:hover {
-    border: 1px solid var(--custom-color-accent-light) !important;
+.ts-chat-input-container.focus,
+.ts-chat-input-container:hover {
+  border: 1px solid var(--custom-color-accent-light) !important;
+  background-color: var(--custom-value-dark7) !important;
 }
-
 
 .ts-chat-input-container {
-    border: 1px solid var(--tsv-shaded-bg) !important;
+  border: 1px solid var(--tsv-shaded-bg) !important;
+  background-color: var(--custom-value-dark7) !important;
 }
-
 
 /* BUBBLES */
 
 .ts-chat-room-event-detailed:not(.ts-currently-referencing, .apparently-people-like-huge-faces) .ts-chat-room-event-bubble {
-    background: var(--tsv-chat-self-bg) !important;
+  background: var(--tsv-chat-self-bg) !important;
 }
 
-.ts-chat-room-event-detailed:not(.ts-currently-referencing, .apparently-people-like-huge-faces) .ts-chat-room-event-bubble::before  {
-    border-right: 6px solid var(--tsv-chat-self-bg) !important;
+.ts-chat-room-event-detailed:not(.ts-currently-referencing, .apparently-people-like-huge-faces) .ts-chat-room-event-bubble::before {
+  border-right: 6px solid var(--tsv-chat-self-bg) !important;
 }
 
 .ts-chat-room-event-detailed .ts-chat-room-event-bubble.self-mention {
-    background: var(--custom-color-accent-light) !important;
-    color: black !important;
+  background: var(--custom-color-accent-light) !important;
+  color: black !important;
 }
 
 .ts-chat-room-event-detailed .ts-chat-room-event-bubble.self-mention::before {
-    border-right: 6px solid var(--custom-color-accent-light) !important;
+  border-right: 6px solid var(--custom-color-accent-light) !important;
 }
 
 .ts-parsed-text-content .spoiler:not([visible]) {
-    background-color: #ACADB1 !important;
+  background-color: #acadb1 !important;
 }
