@@ -6,13 +6,13 @@
   "engines": {
     "teamspeak": 1
   },
-	"homepage": "https://community.teamspeak.com/t/skin-colorful-teamspeak-a-teamspeak-5-extension/24082?u=leonmarcelhd",
+  "homepage": "https://community.teamspeak.com/t/skin-colorful-teamspeak-a-teamspeak-5-extension/24082?u=leonmarcelhd",
   "docsUrl": "https://community.teamspeak.com/t/skin-colorful-teamspeak-a-teamspeak-5-extension/24082?u=leonmarcelhd",
-	"repository": {
-		"url": "https://github.com/LeonMarcel-HD/Colorful-TeamSpeak",
-		"type": "git",
+  "repository": {
+    "url": "https://github.com/LeonMarcel-HD/Colorful-TeamSpeak",
+    "type": "git",
     "directory": "Colorful-TeamSpeak"
-	},
+  },
   "image": "Thumbnail.png",
   "license": "MIT",
   "author": {
