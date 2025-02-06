@@ -14,7 +14,7 @@
   --custom-value-dark1: #0a0a0f;
   --custom-value-dark2: #121216;
   --custom-value-dark3: #1a1a1f;
-  --custom-value-dark4: #171720;
+  --custom-value-dark4: #171718;
   --custom-value-dark5: #212125;
   --custom-value-dark6: #252529;
   --custom-value-dark7: #343438;
@@ -107,6 +107,11 @@
 }
 
 /* SELF */
+
+/* CHANNEL BACKGROUND */
+.ts-server-tree-item-background-no-image {
+  background: linear-gradient(to right, #17191c 50%, #1e1e1e 100%) !important;
+  }
 
 /* SERVER TREE HORIZONTAL LINE */
 .tsv-footer::before {
